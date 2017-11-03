@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+Image.h
 //  BuDeJie01
 //
 //  Created by admin on 2017/11/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIImage (Image)
++(UIImage *)imageOriginalWithName:(NSString *)imageName;
 @end
-
