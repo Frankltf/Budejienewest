@@ -14,7 +14,7 @@
 #import "XMGMeViewController.h"
 #import "UIImage+Image.h"
 #import "XMGTabBar.h"
-
+#import "XMGNavigationController.h"
 @interface XMGtabBarViewController ()
 
 @end
@@ -40,14 +40,14 @@
 -(void)setUpTabBar
 {
     XMGEssenceViewController *essence=[[XMGEssenceViewController alloc]init];
-    UINavigationController *nav1=[[UINavigationController alloc]initWithRootViewController:essence];
+    XMGNavigationController *nav1=[[XMGNavigationController alloc]initWithRootViewController:essence];
     [self addChildViewController:nav1];
     [self setupTabBarTitleWith:nav1 titleName:@"精华" imageName:@"tabBar_essence_icon" selectImageName:@"tabBar_essence_click_icon"];
 
     
     
     XMGFriendTrendViewController *friendTrend=[[XMGFriendTrendViewController alloc]init];
-    UINavigationController *nav2=[[UINavigationController alloc]initWithRootViewController:friendTrend];
+    XMGNavigationController *nav2=[[XMGNavigationController alloc]initWithRootViewController:friendTrend];
     [self addChildViewController:nav2];
     [self setupTabBarTitleWith:nav2 titleName:@"关注" imageName:@"tabBar_friendTrends_icon" selectImageName:@"tabBar_friendTrends_click_icon"];
 
@@ -55,12 +55,12 @@
 
     
     XMGNewViewController *new=[[XMGNewViewController alloc]init];
-    UINavigationController *nav4=[[UINavigationController alloc]initWithRootViewController:new];
+    XMGNavigationController *nav4=[[XMGNavigationController alloc]initWithRootViewController:new];
     [self addChildViewController:nav4];
     [self setupTabBarTitleWith:nav4 titleName:@"帖" imageName:@"tabBar_new_icon" selectImageName:@"tabBar_new_click_icon"];
     
     XMGMeViewController *me=[[XMGMeViewController alloc]init];
-    UINavigationController *nav5=[[UINavigationController alloc]initWithRootViewController:me];
+    XMGNavigationController *nav5=[[XMGNavigationController alloc]initWithRootViewController:me];
     [self addChildViewController:nav5];
     [self setupTabBarTitleWith:nav5 titleName:@"我的" imageName:@"tabBar_me_icon" selectImageName:@"tabBar_me_click_icon"];
 }

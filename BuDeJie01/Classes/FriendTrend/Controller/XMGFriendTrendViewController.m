@@ -8,7 +8,7 @@
 
 #import "XMGFriendTrendViewController.h"
 #import "UIBarButtonItem+Item.h"
-
+#import "XMGLoginViewController.h"
 @interface XMGFriendTrendViewController ()
 
 @end
@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor redColor];
     [self setupNavItem];
 }
 
@@ -33,5 +32,9 @@
 -(void)topage
 {
     
+}
+- (IBAction)loginbtn:(UIButton *)sender {
+    XMGLoginViewController *login=[[XMGLoginViewController alloc]init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XMGtabBarViewController.h"
+#import "XMGViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,8 +18,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    XMGtabBarViewController *tabbar=[[XMGtabBarViewController alloc]init];
-    self.window.rootViewController=tabbar;
+//    XMGtabBarViewController *tabbar=[[XMGtabBarViewController alloc]init];
+//    self.window.rootViewController=tabbar;
+    
+    
+    
+    
+    XMGViewController *ad=[[XMGViewController alloc]init];
+
+    self.window.rootViewController=ad;
+
     
     [self.window makeKeyAndVisible];
     return YES;

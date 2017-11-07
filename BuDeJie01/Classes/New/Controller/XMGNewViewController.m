@@ -8,6 +8,7 @@
 
 #import "XMGNewViewController.h"
 #import "UIBarButtonItem+Item.h"
+#import "XMGSubTagTableViewController.h"
 @interface XMGNewViewController ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor orangeColor];
+    [self setupNavItem];
 }
 
 /**
@@ -30,6 +32,7 @@
 }
 -(void)topage
 {
-    
+    XMGSubTagTableViewController *subtag=[[XMGSubTagTableViewController alloc]init];
+    [self.navigationController pushViewController:subtag animated:YES];
 }
 @end

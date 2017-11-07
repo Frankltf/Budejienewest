@@ -10,4 +10,5 @@
 
 @interface UIBarButtonItem (Item)
 +(UIBarButtonItem *)itemWith:(NSString *)imageName heightImageName:(NSString *)heightImageName target:(nullable id)target action:(SEL)action forControlEvents:(UIControlEvents)controlEvents;
++(UIBarButtonItem *)backitemWith:(NSString *)imageName heightImageName:(NSString *)heightImageName target:(nullable id)target action:(SEL)action forControlEvents:(UIControlEvents)controlEvents title:(NSString *)title;
 @end
