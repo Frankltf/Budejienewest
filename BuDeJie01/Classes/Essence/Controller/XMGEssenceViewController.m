@@ -64,7 +64,9 @@
     for(NSUInteger i=0;i<count;i++){
         UIView *childview=self.childViewControllers[i].view;
         childview.frame=CGRectMake(i * scrollvieww, 0, scrollvieww, scrollviewh);
+       
         [self.scrollview addSubview:childview];
+        
     }
     scrollview.contentSize=CGSizeMake(count * scrollvieww, 0);
 }
