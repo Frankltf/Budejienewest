@@ -49,14 +49,17 @@
 -(void)setupscroll
 {
     UIScrollView *scrollview=[[UIScrollView alloc]init];
+    self.automaticallyAdjustsScrollViewInsets=NO;
     self.scrollview=scrollview;
     scrollview.frame=self.view.bounds;
     scrollview.pagingEnabled=YES;
+    scrollview.showsVerticalScrollIndicator=NO;
+    scrollview.showsHorizontalScrollIndicator=NO;
     scrollview.backgroundColor=[UIColor redColor];
     [self.view addSubview:scrollview];
     scrollview.delegate=self;
-    CGFloat scrollvieww=self.view.bounds.size.width;
-    CGFloat scrollviewh=self.view.bounds.size.height;
+    CGFloat scrollvieww=self.scrollview.xmg_width;
+    CGFloat scrollviewh=self.scrollview.xmg_height;
     NSUInteger count=self.childViewControllers.count;
     for(NSUInteger i=0;i<count;i++){
         UIView *childview=self.childViewControllers[i].view;
@@ -74,7 +77,7 @@
     UIView *titleview=[[UIView alloc]init];
     self.titleview=titleview;
     titleview.frame=CGRectMake(0, 64, self.view.bounds.size.width, 35);
-    titleview.backgroundColor=[UIColor darkGrayColor];
+    titleview.backgroundColor=[[UIColor darkGrayColor] colorWithAlphaComponent:0.5];
     [self.view addSubview:titleview];
     NSArray *titles=@[@"全部",@"视频",@"声音",@"图片",@"段子"];
     CGFloat btnw=self.view.bounds.size.width/titles.count;
@@ -90,12 +93,12 @@
         [btn addTarget:self action:@selector(navbtn:) forControlEvents:UIControlEventTouchUpInside];
         [titleview addSubview:btn];
     }
-    
     UIView *underlineview=[[UIView alloc]init];
     self.underlineview=underlineview;
     underlineview.frame=CGRectMake(0, 33, 70, 2);
     underlineview.backgroundColor=[UIColor redColor];
     [titleview addSubview:underlineview];
+    NSLog(@"%d",33);
     
 }
 -(void)navbtn:(UIButton *)btn
@@ -113,7 +116,6 @@
     } completion:^(BOOL finished) {
         [self underlinebtn:btn];
     }];
-    
 }
 -(void)underlinebtn:(UIButton *)btn
 {
