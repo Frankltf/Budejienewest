@@ -12,7 +12,7 @@
 #import "XMGVoiceTableViewController.h"
 #import "XMGPictureTableViewController.h"
 #import "XMGWordTableViewController.h"
-
+#import "UIView+Frame.h"
 
 
 @interface XMGEssenceViewController ()<UIScrollViewDelegate>
@@ -20,6 +20,7 @@
 @property(nonatomic,weak)UIButton *previousbtn;
 @property(nonatomic,weak)UIButton *nextbtn;
 @property(nonatomic,weak)UIView *titleview;
+@property(nonatomic,weak)UIView *underlineview;
 @end
 
 @implementation XMGEssenceViewController
@@ -90,6 +91,12 @@
         [titleview addSubview:btn];
     }
     
+    UIView *underlineview=[[UIView alloc]init];
+    self.underlineview=underlineview;
+    underlineview.frame=CGRectMake(0, 33, 70, 2);
+    underlineview.backgroundColor=[UIColor redColor];
+    [titleview addSubview:underlineview];
+    
 }
 -(void)navbtn:(UIButton *)btn
 {
@@ -104,9 +111,20 @@
     [UIView animateWithDuration:0.25 animations:^{
         self.scrollview.contentOffset=CGPointMake(offsetx, self.scrollview.contentOffset.y);
     } completion:^(BOOL finished) {
-        
+        [self underlinebtn:btn];
     }];
     
+}
+-(void)underlinebtn:(UIButton *)btn
+{
+    [btn.titleLabel sizeToFit];
+    self.underlineview.xmg_width=btn.titleLabel.xmg_width;
+    [UIView animateWithDuration:0.2 animations:^{
+        CGPoint undercenter=self.underlineview.center;
+        CGPoint btncenter=btn.center;
+        undercenter.x=btncenter.x;
+        self.underlineview.center=undercenter;
+    }];
 }
 # pragma mark - <UIScrollViewDelegate>
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
