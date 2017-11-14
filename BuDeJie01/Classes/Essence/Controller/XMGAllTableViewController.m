@@ -17,7 +17,8 @@ static NSString *ID=@"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor lightGrayColor];
+    
+    self.view.backgroundColor=XMGColor(100, 200, 300);
     self.tableView.contentInset = UIEdgeInsetsMake(99, 0, 49, 0);
     [self.tableView registerNib:[UINib nibWithNibName:@"XMGContentTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
 }

@@ -31,12 +31,14 @@
     [self setupscroll];
     [self setupTitleview];
     self.navigationItem.title=@"精华";
+
 }
 /**
  设置子控制器
  */
 -(void)setupChildCon
 {
+  
     [self addChildViewController:[[XMGAllTableViewController alloc]init]];
     [self addChildViewController:[[XMGVideoTableViewController alloc]init]];
     [self addChildViewController:[[XMGVoiceTableViewController alloc]init]];
@@ -50,6 +52,7 @@
 {
     UIScrollView *scrollview=[[UIScrollView alloc]init];
     self.automaticallyAdjustsScrollViewInsets=NO;
+
     self.scrollview=scrollview;
     scrollview.frame=self.view.bounds;
     scrollview.pagingEnabled=YES;
@@ -83,11 +86,13 @@
     NSArray *titles=@[@"全部",@"视频",@"声音",@"图片",@"段子"];
     CGFloat btnw=self.view.bounds.size.width/titles.count;
     CGFloat btnh=35;
+    
     for(NSInteger i=0;i<titles.count;i++){
         UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
         [btn setTitle:titles[i] forState:UIControlStateNormal];
         btn.tag=99+i;
         btn.frame=CGRectMake(i*btnw, 0, btnw, btnh);
+        btn.backgroundColor=XMGRandomColor;
         if(i == 0){
             [self navbtn:btn];
         }

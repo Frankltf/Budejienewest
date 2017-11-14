@@ -8,3 +8,11 @@
 #define iphone5 (XMGScreen == 568)
 #define iphone4 (XMGScreen == 480)
 
+#ifdef DEBUG
+#define XMGLog(...) NSLog(__VA_ARGS__);
+#elif 
+#define XMGLog(...)
+#endif
+
+#define XMGColor(r,g,b)   [UIColor colorWithRed:(r)/256.0 green:(g)/256.0 blue:(b)/256.0 alpha:(b/256.0)]
+#define XMGRandomColor XMGColor (arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
