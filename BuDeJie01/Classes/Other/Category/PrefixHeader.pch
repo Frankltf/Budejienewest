@@ -1,0 +1,10 @@
+
+#import "XMGConst.h"
+
+#define XMGScreenW [UIScreen mainScreen].bounds.size.width
+#define XMGScreenH [UIScreen mainScreen].bounds.size.height
+#define iphone6P (XMGScreen == 736)
+#define iphone6 (XMGScreen == 667)
+#define iphone5 (XMGScreen == 568)
+#define iphone4 (XMGScreen == 480)
+

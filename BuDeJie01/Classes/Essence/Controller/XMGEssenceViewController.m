@@ -58,16 +58,14 @@
     scrollview.backgroundColor=[UIColor redColor];
     [self.view addSubview:scrollview];
     scrollview.delegate=self;
-    CGFloat scrollvieww=self.scrollview.xmg_width;
-    CGFloat scrollviewh=self.scrollview.xmg_height;
     NSUInteger count=self.childViewControllers.count;
-    for(NSUInteger i=0;i<count;i++){
-        UIView *childview=self.childViewControllers[i].view;
-        childview.frame=CGRectMake(i * scrollvieww, 0, scrollvieww, scrollviewh);
-       
-        [self.scrollview addSubview:childview];
-        
-    }
+//    for(NSUInteger i=0;i<count;i++){
+//        UIView *childview=self.childViewControllers[i].view;
+//        childview.frame=CGRectMake(i * scrollvieww, 0, scrollvieww, scrollviewh);
+//       
+//        [self.scrollview addSubview:childview];
+//        
+//    }
     scrollview.contentSize=CGSizeMake(count * scrollvieww, 0);
 }
 
@@ -100,7 +98,6 @@
     underlineview.frame=CGRectMake(0, 33, 70, 2);
     underlineview.backgroundColor=[UIColor redColor];
     [titleview addSubview:underlineview];
-    NSLog(@"%d",33);
     
 }
 -(void)navbtn:(UIButton *)btn
@@ -117,7 +114,18 @@
         self.scrollview.contentOffset=CGPointMake(offsetx, self.scrollview.contentOffset.y);
     } completion:^(BOOL finished) {
         [self underlinebtn:btn];
+        [self xmgaddchildview:(index-99)];
     }];
+}
+-(void)xmgaddchildview:(NSInteger)index
+{
+    CGFloat scrollvieww=self.scrollview.xmg_width;
+    CGFloat scrollviewh=self.scrollview.xmg_height;
+    UIView *childview=self.childViewControllers[index].view;
+    childview.frame=CGRectMake(index * scrollvieww, 0, scrollvieww, scrollviewh);
+    
+    [self.scrollview addSubview:childview];
+
 }
 -(void)underlinebtn:(UIButton *)btn
 {

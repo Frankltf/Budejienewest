@@ -21,6 +21,7 @@
 		84B845771FA9CE2B0078D705 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B845761FA9CE2B0078D705 /* XMGTabBar.m */; };
 		84B8459A1FAB14520078D705 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B845991FAB14520078D705 /* UIView+Frame.m */; };
 		84B8459D1FAB3ED60078D705 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8459C1FAB3ED60078D705 /* UIBarButtonItem+Item.m */; };
+		84C5AFE81FB9940A00DFC42B /* XMGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5AFE71FB9940A00DFC42B /* XMGConst.m */; };
 		84D59D231FAC1D180038F834 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D59D221FAC1D180038F834 /* XMGNavigationController.m */; };
 		84D59D261FAC284C0038F834 /* XMGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D59D251FAC284C0038F834 /* XMGSettingViewController.m */; };
 		84D59D2D1FAC3EC80038F834 /* XMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D59D2C1FAC3EC80038F834 /* XMGViewController.m */; };
@@ -73,6 +74,9 @@
 		84B845991FAB14520078D705 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		84B8459B1FAB3ED60078D705 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		84B8459C1FAB3ED60078D705 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		84C5AFE51FB94BFE00DFC42B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84C5AFE61FB9940A00DFC42B /* XMGConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGConst.h; sourceTree = "<group>"; };
+		84C5AFE71FB9940A00DFC42B /* XMGConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGConst.m; sourceTree = "<group>"; };
 		84D59D211FAC1D180038F834 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
 		84D59D221FAC1D180038F834 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
 		84D59D241FAC284C0038F834 /* XMGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingViewController.h; sourceTree = "<group>"; };
@@ -434,6 +438,9 @@
 				84B845991FAB14520078D705 /* UIView+Frame.m */,
 				84B8459B1FAB3ED60078D705 /* UIBarButtonItem+Item.h */,
 				84B8459C1FAB3ED60078D705 /* UIBarButtonItem+Item.m */,
+				84C5AFE51FB94BFE00DFC42B /* PrefixHeader.pch */,
+				84C5AFE61FB9940A00DFC42B /* XMGConst.h */,
+				84C5AFE71FB9940A00DFC42B /* XMGConst.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -641,6 +648,7 @@
 				84D59D8A1FB036BD0038F834 /* XMGLoginViewController.m in Sources */,
 				84D59D261FAC284C0038F834 /* XMGSettingViewController.m in Sources */,
 				84D59DA81FB183AF0038F834 /* XMGContentTableViewCell.m in Sources */,
+				84C5AFE81FB9940A00DFC42B /* XMGConst.m in Sources */,
 				84B845741FA9C7EE0078D705 /* UIImage+Image.m in Sources */,
 				84B845701FA9C11F0078D705 /* XMGtabBarViewController.m in Sources */,
 				84D59DA51FB161D30038F834 /* XMGEssenceViewController.m in Sources */,
@@ -766,6 +774,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = R2G6967R8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BuDeJie01/Classes/Other/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -781,6 +791,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = R2G6967R8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BuDeJie01/Classes/Other/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
