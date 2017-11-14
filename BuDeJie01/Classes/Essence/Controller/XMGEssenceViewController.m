@@ -58,6 +58,7 @@
     scrollview.backgroundColor=[UIColor redColor];
     [self.view addSubview:scrollview];
     scrollview.delegate=self;
+    CGFloat scrollvieww=self.scrollview.xmg_width;
     NSUInteger count=self.childViewControllers.count;
 //    for(NSUInteger i=0;i<count;i++){
 //        UIView *childview=self.childViewControllers[i].view;
@@ -98,6 +99,7 @@
     underlineview.frame=CGRectMake(0, 33, 70, 2);
     underlineview.backgroundColor=[UIColor redColor];
     [titleview addSubview:underlineview];
+    NSLog(@"%d",33);
     
 }
 -(void)navbtn:(UIButton *)btn
