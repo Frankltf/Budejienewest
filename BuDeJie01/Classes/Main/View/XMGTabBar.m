@@ -11,7 +11,8 @@
 @interface XMGTabBar ()
 
 @property (nonatomic,weak)UIButton *plusButton;
-
+@property(nonatomic,weak)UIControl *previoustabbarbtn;
+@property(nonatomic,weak)UIColor *nexttabbarbtn;
 @end
 
 @implementation XMGTabBar
@@ -37,8 +38,11 @@
     CGFloat btnh=self.xmg_height;
     CGFloat x=0;
     int i=0;
-    for(UIView *tabBarButton in self.subviews){
+    for(UIControl *tabBarButton in self.subviews){
         if([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]){
+            if(i == 0 && self.previoustabbarbtn == nil){
+                self.previoustabbarbtn=tabBarButton;
+            }
             if(i == 2){
                 i += 1;
             }
@@ -46,9 +50,21 @@
             x=i * btnw;
             tabBarButton.frame=CGRectMake(x, 0, btnw, btnh);
             i++;
+            [tabBarButton addTarget:self action:@selector(clicktabbar:) forControlEvents:UIControlEventTouchUpInside];
         }
+        
     }
+    
     self.plusButton.center=CGPointMake(self.xmg_width/2, self.xmg_height/2);
+}
+-(void)clicktabbar:(UIControl *)tabbar
+{
+    if([self.previoustabbarbtn isEqual:tabbar]){
+        XMGFunc;
+        return;
+    }
+    self.previoustabbarbtn=tabbar;
+    
 }
 
 @end
