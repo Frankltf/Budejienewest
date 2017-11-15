@@ -8,7 +8,7 @@
 
 #import "XMGAllTableViewController.h"
 #import "XMGContentTableViewCell.h"
-static NSString *ID=@"cell";
+static NSString * const ID=@"cell";
 @interface XMGAllTableViewController ()
 
 @end

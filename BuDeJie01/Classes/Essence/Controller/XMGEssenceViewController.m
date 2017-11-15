@@ -60,6 +60,7 @@
     scrollview.showsHorizontalScrollIndicator=NO;
     scrollview.backgroundColor=[UIColor redColor];
     [self.view addSubview:scrollview];
+    scrollview.scrollsToTop=NO;
     scrollview.delegate=self;
     CGFloat scrollvieww=self.scrollview.xmg_width;
     NSUInteger count=self.childViewControllers.count;
@@ -104,6 +105,7 @@
     underlineview.frame=CGRectMake(0, 33, 70, 2);
     underlineview.backgroundColor=[UIColor redColor];
     [titleview addSubview:underlineview];
+
     NSLog(@"%d",33);
     
 }
@@ -123,6 +125,21 @@
         [self underlinebtn:btn];
         [self xmgaddchildview:(index-99)];
     }];
+    
+    
+    for(NSUInteger i=0;i<self.childViewControllers.count;i++){
+        UIViewController *childvc=self.childViewControllers[i];
+        if(! childvc.isViewLoaded){
+            continue;
+        }
+        UIScrollView *scrollview=(UIScrollView *)childvc.view;
+        if(![scrollview isKindOfClass:[UIScrollView class]]) continue;
+        if(i == (index-99)){
+            scrollview.scrollsToTop=YES;
+        }else{
+            scrollview.scrollsToTop=NO;
+        }
+    }
 }
 -(void)xmgaddchildview:(NSInteger)index
 {
