@@ -61,6 +61,8 @@
 {
     if([self.previoustabbarbtn isEqual:tabbar]){
         XMGFunc;
+        [[NSNotificationCenter defaultCenter]postNotificationName:XMGTabBarButtonDidRepeatClickNotification object:nil];
+        
         return;
     }
     self.previoustabbarbtn=tabbar;
