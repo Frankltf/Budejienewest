@@ -61,7 +61,10 @@
 {
     if([self.previoustabbarbtn isEqual:tabbar]){
         XMGFunc;
-        [[NSNotificationCenter defaultCenter]postNotificationName:XMGTabBarButtonDidRepeatClickNotification object:nil];
+        
+        
+        [[NSNotificationCenter defaultCenter]postNotificationName:XMGTabBarButtonDidRepeatClickNotification object:@"aabb"];
+//        [[NSNotificationCenter defaultCenter]postNotificationName:XMGTabBarButtonDidRepeatClickNotification object:nil];
         
         return;
     }

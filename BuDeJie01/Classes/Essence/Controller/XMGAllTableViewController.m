@@ -21,8 +21,8 @@ static NSString * const ID=@"cell";
     self.view.backgroundColor=XMGColor(100, 200, 300);
     self.tableView.contentInset = UIEdgeInsetsMake(99, 0, 49, 0);
     [self.tableView registerNib:[UINib nibWithNibName:@"XMGContentTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
-    
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
+
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick:) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
 }
 
 -(void)dealloc
@@ -30,9 +30,9 @@ static NSString * const ID=@"cell";
     XMGFunc;
     [[NSNotificationCenter defaultCenter]removeObserver:XMGTabBarButtonDidRepeatClickNotification];
 }
--(void)tabBarButtonDidRepeatClick
+-(void)tabBarButtonDidRepeatClick:(NSNotification *)nsn
 {
-    NSLog(@"%@",self);
+    NSLog(@"%@",nsn);
     if (self.view.window == nil) return;
     if(self.tableView.scrollsToTop==NO)return;
     XMGFunc;
