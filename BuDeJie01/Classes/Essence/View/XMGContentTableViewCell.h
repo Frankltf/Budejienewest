@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XMGTopic;
 
 @interface XMGContentTableViewCell : UITableViewCell
-
+@property(nonatomic,strong)XMGTopic *topic;
 @end

@@ -7,6 +7,14 @@
 //
 
 #import "XMGContentTableViewCell.h"
+#import "XMGTopic.h"
+@interface XMGContentTableViewCell ()
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *toplabel;
+@property (weak, nonatomic) IBOutlet UILabel *bottomlabel;
+@property (weak, nonatomic) IBOutlet UILabel *rightlabel;
+
+@end
 
 @implementation XMGContentTableViewCell
 
@@ -15,10 +23,15 @@
     // Initialization code
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+-(void)setTopic:(XMGTopic *)topic
+{
+    _topic=topic;
+    self.toplabel.text=topic.name;
+    self.bottomlabel.text=topic.text;
+    self.rightlabel.text=topic.passtime;
+    
 }
+
+
 
 @end

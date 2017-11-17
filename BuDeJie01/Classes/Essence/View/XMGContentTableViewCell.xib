@@ -14,9 +14,52 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGContentTableViewCell">
             <rect key="frame" x="0.0" y="0.0" width="375" height="222"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-yv-MNh">
+                    <rect key="frame" x="10" y="10" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="2qP-VR-Gig"/>
+                        <constraint firstAttribute="height" constant="35" id="MTI-BZ-cVp"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v50-xF-5AI">
+                    <rect key="frame" x="50" y="10" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PG-If-TWv">
+                    <rect key="frame" x="57" y="24" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfo-ot-4PX">
+                    <rect key="frame" x="10" y="50" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="v50-xF-5AI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3Vm-Ap-bg8"/>
+                <constraint firstItem="1PG-If-TWv" firstAttribute="leading" secondItem="pfo-ot-4PX" secondAttribute="trailing" constant="5" id="DFd-j6-wMc"/>
+                <constraint firstItem="1PG-If-TWv" firstAttribute="bottom" secondItem="GpX-yv-MNh" secondAttribute="bottom" id="G2s-Uk-gcT"/>
+                <constraint firstItem="GpX-yv-MNh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="HuV-VD-DsF"/>
+                <constraint firstItem="pfo-ot-4PX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Jc4-LC-And"/>
+                <constraint firstItem="v50-xF-5AI" firstAttribute="leading" secondItem="GpX-yv-MNh" secondAttribute="trailing" constant="5" id="X1Q-Ic-9e1"/>
+                <constraint firstItem="GpX-yv-MNh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cYq-lf-3vb"/>
+                <constraint firstItem="pfo-ot-4PX" firstAttribute="top" secondItem="GpX-yv-MNh" secondAttribute="bottom" constant="5" id="uH2-JA-imH"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomlabel" destination="1PG-If-TWv" id="80z-PL-7vK"/>
+                <outlet property="image" destination="GpX-yv-MNh" id="SQh-ST-Irc"/>
+                <outlet property="rightlabel" destination="pfo-ot-4PX" id="mFq-M3-h4B"/>
+                <outlet property="toplabel" destination="v50-xF-5AI" id="LqN-qP-fkR"/>
+            </connections>
         </view>
     </objects>
 </document>

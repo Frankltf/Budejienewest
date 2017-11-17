@@ -18,3 +18,5 @@
 #define XMGRandomColor XMGColor (arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
 
 #define XMGFunc XMGLog(@"%s",__func__)
+
+#define XMGWritePlist(filename) [responseObject writeToFile:[NSString stringWithFormat:@"/Users/admin/Documents/project/Budejienewest/%@.plist",@#filename] atomically:YES]
