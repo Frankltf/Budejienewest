@@ -13,7 +13,7 @@
 		<key>page</key>
 		<integer>100</integer>
 		<key>vendor</key>
-		<string>node94</string>
+		<string>six.jie.c</string>
 	</dict>
 	<key>list</key>
 	<array>
@@ -29,13 +29,13 @@
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/19/5a1158a7588b2_1.jpg</string>
 			<key>comment</key>
-			<string>8</string>
+			<string>9</string>
 			<key>create_time</key>
 			<string>2017-11-19 18:10:47</string>
 			<key>created_at</key>
 			<string>2017-11-20 11:30:02</string>
 			<key>ding</key>
-			<string>95</string>
+			<string>109</string>
 			<key>favourite</key>
 			<string>0</string>
 			<key>hate</key>
@@ -53,7 +53,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>95</string>
+			<string>109</string>
 			<key>name</key>
 			<string>hguM</string>
 			<key>original_pid</key>
@@ -63,7 +63,7 @@
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/04/20/58f8444f4074a_mini.jpg</string>
 			<key>repost</key>
-			<string>8</string>
+			<string>10</string>
 			<key>screen_name</key>
 			<string>hguM</string>
 			<key>status</key>
@@ -99,7 +99,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.zk111.net/share/26854887.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.com.cn/share/26854887.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>560</string>
 		</dict>
@@ -107,25 +107,25 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>3</string>
+			<string>6</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>10</string>
+			<string>12</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/19/5a11750c41a9d_1.jpg</string>
 			<key>comment</key>
-			<string>31</string>
+			<string>35</string>
 			<key>create_time</key>
 			<string>2017-11-19 20:11:56</string>
 			<key>created_at</key>
 			<string>2017-11-20 11:27:24</string>
 			<key>ding</key>
-			<string>195</string>
+			<string>221</string>
 			<key>favourite</key>
-			<string>3</string>
+			<string>6</string>
 			<key>hate</key>
-			<string>10</string>
+			<string>12</string>
 			<key>height</key>
 			<string>7971</string>
 			<key>id</key>
@@ -139,7 +139,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>195</string>
+			<string>221</string>
 			<key>name</key>
 			<string>为你改变love</string>
 			<key>original_pid</key>
@@ -185,7 +185,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.net/share/26855489.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.budejie.com/share/26855489.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>864</string>
 		</dict>
@@ -193,7 +193,7 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/f9dfea86-cc5e-11e7-bd6b-1866daeb0df1_wpd.jpg</string>
 			<key>bookmark</key>
-			<string>77</string>
+			<string>85</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -201,15 +201,15 @@
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/f9dfea86-cc5e-11e7-bd6b-1866daeb0df1_wpd.jpg</string>
 			<key>comment</key>
-			<string>15</string>
+			<string>18</string>
 			<key>create_time</key>
 			<string>2017-11-18 20:49:55</string>
 			<key>created_at</key>
 			<string>2017-11-20 11:27:02</string>
 			<key>ding</key>
-			<string>164</string>
+			<string>171</string>
 			<key>favourite</key>
-			<string>77</string>
+			<string>85</string>
 			<key>hate</key>
 			<string>18</string>
 			<key>height</key>
@@ -227,7 +227,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>164</string>
+			<string>171</string>
 			<key>name</key>
 			<string>局长夫人的妹妹</string>
 			<key>original_pid</key>
@@ -235,13 +235,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 11:27:02</string>
 			<key>playcount</key>
-			<string>7080</string>
+			<string>7644</string>
 			<key>playfcount</key>
-			<string>1570</string>
+			<string>1720</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2016/11/28/583c4ea1f3eb6_mini.jpg</string>
 			<key>repost</key>
-			<string>44</string>
+			<string>46</string>
 			<key>screen_name</key>
 			<string>局长夫人的妹妹</string>
 			<key>status</key>
@@ -277,7 +277,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/26849320.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.budejie.com/share/26849320.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>600</string>
 		</dict>
@@ -285,7 +285,7 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1119/5a10cabc6105d__b.jpg</string>
 			<key>bookmark</key>
-			<string>22</string>
+			<string>24</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -293,15 +293,15 @@
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1119/5a10cabc6105d__b.jpg</string>
 			<key>comment</key>
-			<string>33</string>
+			<string>36</string>
 			<key>create_time</key>
 			<string>2017-11-19 08:05:16</string>
 			<key>created_at</key>
 			<string>2017-11-20 11:08:02</string>
 			<key>ding</key>
-			<string>430</string>
+			<string>469</string>
 			<key>favourite</key>
-			<string>22</string>
+			<string>24</string>
 			<key>hate</key>
 			<string>15</string>
 			<key>height</key>
@@ -319,7 +319,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>430</string>
+			<string>469</string>
 			<key>name</key>
 			<string>承诺转身是谎言</string>
 			<key>original_pid</key>
@@ -327,13 +327,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 11:08:02</string>
 			<key>playcount</key>
-			<string>16072</string>
+			<string>17201</string>
 			<key>playfcount</key>
-			<string>2153</string>
+			<string>2347</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/09/23/59c61c44e5ae0_mini.jpg</string>
 			<key>repost</key>
-			<string>124</string>
+			<string>136</string>
 			<key>screen_name</key>
 			<string>承诺转身是谎言</string>
 			<key>status</key>
@@ -369,7 +369,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.budejie.com/share/26851390.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.com/share/26851390.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>424</string>
 		</dict>
@@ -377,25 +377,25 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>4</string>
+			<string>5</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>32</string>
+			<string>34</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/08/07/5987bf4410f07_1.jpg</string>
 			<key>comment</key>
-			<string>21</string>
+			<string>23</string>
 			<key>create_time</key>
 			<string>2017-08-07 09:15:48</string>
 			<key>created_at</key>
 			<string>2017-11-20 11:04:01</string>
 			<key>ding</key>
-			<string>119</string>
+			<string>123</string>
 			<key>favourite</key>
-			<string>4</string>
+			<string>5</string>
 			<key>hate</key>
-			<string>32</string>
+			<string>34</string>
 			<key>height</key>
 			<string>15231</string>
 			<key>id</key>
@@ -409,7 +409,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>119</string>
+			<string>123</string>
 			<key>name</key>
 			<string>知乎专栏</string>
 			<key>original_pid</key>
@@ -455,7 +455,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.budejie.com/share/25967092.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.cn/share/25967092.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1080</string>
 		</dict>
@@ -463,25 +463,25 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/5a102c3425262__b.jpg</string>
 			<key>bookmark</key>
-			<string>14</string>
+			<string>15</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>15</string>
+			<string>16</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/5a102c3425262__b.jpg</string>
 			<key>comment</key>
-			<string>31</string>
+			<string>32</string>
 			<key>create_time</key>
 			<string>2017-11-18 20:48:52</string>
 			<key>created_at</key>
 			<string>2017-11-20 10:49:01</string>
 			<key>ding</key>
-			<string>259</string>
+			<string>277</string>
 			<key>favourite</key>
-			<string>14</string>
-			<key>hate</key>
 			<string>15</string>
+			<key>hate</key>
+			<string>16</string>
 			<key>height</key>
 			<string>480</string>
 			<key>id</key>
@@ -497,7 +497,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>259</string>
+			<string>277</string>
 			<key>name</key>
 			<string>搞笑视频回一笑</string>
 			<key>original_pid</key>
@@ -505,13 +505,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 10:49:01</string>
 			<key>playcount</key>
-			<string>6324</string>
+			<string>6812</string>
 			<key>playfcount</key>
-			<string>414</string>
+			<string>462</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/09/21/59c2b8b0ccb19_mini.jpg</string>
 			<key>repost</key>
-			<string>53</string>
+			<string>58</string>
 			<key>screen_name</key>
 			<string>搞笑视频回一笑</string>
 			<key>status</key>
@@ -547,7 +547,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.budejie.com/share/26849311.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.com.cn/share/26849311.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>854</string>
 		</dict>
@@ -559,21 +559,21 @@
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>56</string>
+			<string>58</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/19/5a1173987852a_1.jpg</string>
 			<key>comment</key>
-			<string>131</string>
+			<string>135</string>
 			<key>create_time</key>
 			<string>2017-11-19 20:05:44</string>
 			<key>created_at</key>
 			<string>2017-11-20 10:38:02</string>
 			<key>ding</key>
-			<string>278</string>
+			<string>289</string>
 			<key>favourite</key>
 			<string>2</string>
 			<key>hate</key>
-			<string>56</string>
+			<string>58</string>
 			<key>height</key>
 			<string>7918</string>
 			<key>id</key>
@@ -587,7 +587,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>278</string>
+			<string>289</string>
 			<key>name</key>
 			<string>茜茜是小公主</string>
 			<key>original_pid</key>
@@ -633,7 +633,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.zk111.cn/share/26855442.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.budejie.com/share/26855442.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1000</string>
 		</dict>
@@ -645,21 +645,21 @@
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>40</string>
+			<string>41</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1119/5a115f8e2710f__b_36.jpg</string>
 			<key>comment</key>
-			<string>84</string>
+			<string>87</string>
 			<key>create_time</key>
 			<string>2017-11-19 18:40:14</string>
 			<key>created_at</key>
 			<string>2017-11-20 10:24:01</string>
 			<key>ding</key>
-			<string>495</string>
+			<string>505</string>
 			<key>favourite</key>
 			<string>11</string>
 			<key>hate</key>
-			<string>40</string>
+			<string>41</string>
 			<key>height</key>
 			<string>360</string>
 			<key>id</key>
@@ -675,7 +675,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>495</string>
+			<string>505</string>
 			<key>name</key>
 			<string>陈翔六点半</string>
 			<key>original_pid</key>
@@ -683,9 +683,9 @@
 			<key>passtime</key>
 			<string>2017-11-20 10:24:01</string>
 			<key>playcount</key>
-			<string>18741</string>
+			<string>19509</string>
 			<key>playfcount</key>
-			<string>1042</string>
+			<string>1083</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2015/05/05/554883fcaaaa7_mini.jpg</string>
 			<key>repost</key>
@@ -725,7 +725,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/26855044.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.budejie.com/share/26855044.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -733,25 +733,25 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1119/5a119c50874c0__b.jpg</string>
 			<key>bookmark</key>
-			<string>15</string>
+			<string>16</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>33</string>
+			<string>34</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1119/5a119c50874c0__b.jpg</string>
 			<key>comment</key>
-			<string>456</string>
+			<string>470</string>
 			<key>create_time</key>
 			<string>2017-11-19 22:59:28</string>
 			<key>created_at</key>
 			<string>2017-11-20 09:59:02</string>
 			<key>ding</key>
-			<string>518</string>
+			<string>540</string>
 			<key>favourite</key>
-			<string>15</string>
+			<string>16</string>
 			<key>hate</key>
-			<string>33</string>
+			<string>34</string>
 			<key>height</key>
 			<string>640</string>
 			<key>id</key>
@@ -767,7 +767,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>518</string>
+			<string>540</string>
 			<key>name</key>
 			<string>爱上-寂寞</string>
 			<key>original_pid</key>
@@ -775,13 +775,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 09:59:02</string>
 			<key>playcount</key>
-			<string>23827</string>
+			<string>24732</string>
 			<key>playfcount</key>
-			<string>4567</string>
+			<string>4774</string>
 			<key>profile_image</key>
 			<string>http://wx.qlogo.cn/mmopen/ZeuSZYeUCFKvicyuKFZCUN1PGs6sAMgBcuQQswORyFdAP8q1W56qadfntiaKAJI9Txr3nK8VGMzKPWoxCpxuLGqQ/0</string>
 			<key>repost</key>
-			<string>50</string>
+			<string>52</string>
 			<key>screen_name</key>
 			<string>爱上-寂寞</string>
 			<key>status</key>
@@ -817,7 +817,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com/share/26856830.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.com.cn/share/26856830.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>368</string>
 		</dict>
@@ -825,21 +825,21 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>3</string>
+			<string>4</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
 			<string>19</string>
 			<key>comment</key>
-			<string>35</string>
+			<string>36</string>
 			<key>create_time</key>
 			<string>2017-11-19 12:55:57</string>
 			<key>created_at</key>
 			<string>2017-11-20 09:56:01</string>
 			<key>ding</key>
-			<string>205</string>
+			<string>209</string>
 			<key>favourite</key>
-			<string>3</string>
+			<string>4</string>
 			<key>hate</key>
 			<string>19</string>
 			<key>height</key>
@@ -847,7 +847,7 @@
 			<key>id</key>
 			<string>26853022</string>
 			<key>love</key>
-			<string>205</string>
+			<string>209</string>
 			<key>name</key>
 			<string>亦是红尘一场梦</string>
 			<key>original_pid</key>
@@ -893,7 +893,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com/share/26853022.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.net/share/26853022.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>0</string>
 		</dict>
@@ -905,21 +905,21 @@
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>33</string>
+			<string>35</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/19/5a111bec93f09_1.jpg</string>
 			<key>comment</key>
-			<string>205</string>
+			<string>214</string>
 			<key>create_time</key>
 			<string>2017-11-19 13:51:40</string>
 			<key>created_at</key>
 			<string>2017-11-20 09:48:11</string>
 			<key>ding</key>
-			<string>217</string>
+			<string>219</string>
 			<key>favourite</key>
 			<string>10</string>
 			<key>hate</key>
-			<string>33</string>
+			<string>35</string>
 			<key>height</key>
 			<string>7447</string>
 			<key>id</key>
@@ -933,7 +933,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>217</string>
+			<string>219</string>
 			<key>name</key>
 			<string>搞笑小村</string>
 			<key>original_pid</key>
@@ -979,7 +979,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://b.f.zk111.cn/share/26853374.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.cn/share/26853374.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1080</string>
 		</dict>
@@ -991,21 +991,21 @@
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>35</string>
+			<string>36</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/19/5a117a99da681_1.jpg</string>
 			<key>comment</key>
-			<string>111</string>
+			<string>115</string>
 			<key>create_time</key>
 			<string>2017-11-19 20:35:37</string>
 			<key>created_at</key>
 			<string>2017-11-20 09:46:01</string>
 			<key>ding</key>
-			<string>968</string>
+			<string>999</string>
 			<key>favourite</key>
 			<string>21</string>
 			<key>hate</key>
-			<string>35</string>
+			<string>36</string>
 			<key>height</key>
 			<string>1378</string>
 			<key>id</key>
@@ -1019,7 +1019,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>968</string>
+			<string>999</string>
 			<key>name</key>
 			<string>名媛气质</string>
 			<key>original_pid</key>
@@ -1029,7 +1029,7 @@
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2016/11/06/581f3710713f8_mini.jpg</string>
 			<key>repost</key>
-			<string>27</string>
+			<string>28</string>
 			<key>screen_name</key>
 			<string>名媛气质</string>
 			<key>status</key>
@@ -1065,7 +1065,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com.cn/share/26855670.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.net/share/26855670.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>792</string>
 		</dict>
@@ -1073,11 +1073,11 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/5a0fcef07d9db_wpd.jpg</string>
 			<key>bookmark</key>
-			<string>489</string>
+			<string>507</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>20</string>
+			<string>21</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1118/5a0fcef07d9db_wpd.jpg</string>
 			<key>comment</key>
@@ -1087,11 +1087,11 @@
 			<key>created_at</key>
 			<string>2017-11-20 09:39:02</string>
 			<key>ding</key>
-			<string>680</string>
+			<string>693</string>
 			<key>favourite</key>
-			<string>489</string>
+			<string>507</string>
 			<key>hate</key>
-			<string>20</string>
+			<string>21</string>
 			<key>height</key>
 			<string>600</string>
 			<key>id</key>
@@ -1107,7 +1107,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>680</string>
+			<string>693</string>
 			<key>name</key>
 			<string>污姐开车了</string>
 			<key>original_pid</key>
@@ -1115,13 +1115,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 09:39:02</string>
 			<key>playcount</key>
-			<string>10117</string>
+			<string>10424</string>
 			<key>playfcount</key>
-			<string>697</string>
+			<string>720</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/10/13/59e0d549b9a60_mini.jpg</string>
 			<key>repost</key>
-			<string>187</string>
+			<string>190</string>
 			<key>screen_name</key>
 			<string>污姐开车了</string>
 			<key>status</key>
@@ -1157,7 +1157,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.net/share/26847008.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.cn/share/26847008.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1066</string>
 		</dict>
@@ -1165,7 +1165,7 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1117/26843911_763.jpg</string>
 			<key>bookmark</key>
-			<string>76</string>
+			<string>77</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -1173,15 +1173,15 @@
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1117/26843911_763.jpg</string>
 			<key>comment</key>
-			<string>52</string>
+			<string>53</string>
 			<key>create_time</key>
 			<string>2017-11-17 22:54:01</string>
 			<key>created_at</key>
 			<string>2017-11-20 09:20:02</string>
 			<key>ding</key>
-			<string>376</string>
+			<string>377</string>
 			<key>favourite</key>
-			<string>76</string>
+			<string>77</string>
 			<key>hate</key>
 			<string>25</string>
 			<key>height</key>
@@ -1199,7 +1199,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>376</string>
+			<string>377</string>
 			<key>name</key>
 			<string>江湖大佬精彩视频</string>
 			<key>original_pid</key>
@@ -1207,9 +1207,9 @@
 			<key>passtime</key>
 			<string>2017-11-20 09:20:02</string>
 			<key>playcount</key>
-			<string>16273</string>
+			<string>16714</string>
 			<key>playfcount</key>
-			<string>434</string>
+			<string>447</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/03/03/58b96188d0caf_mini.jpg</string>
 			<key>repost</key>
@@ -1249,7 +1249,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.budejie.com/share/26843911.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.com.cn/share/26843911.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1064</string>
 		</dict>
@@ -1257,7 +1257,7 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>24</string>
+			<string>27</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -1271,9 +1271,9 @@
 			<key>created_at</key>
 			<string>2017-11-20 09:20:02</string>
 			<key>ding</key>
-			<string>914</string>
+			<string>947</string>
 			<key>favourite</key>
-			<string>24</string>
+			<string>27</string>
 			<key>hate</key>
 			<string>42</string>
 			<key>height</key>
@@ -1289,7 +1289,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>914</string>
+			<string>947</string>
 			<key>name</key>
 			<string>爱笑de小公主</string>
 			<key>original_pid</key>
@@ -1299,7 +1299,7 @@
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/09/20/59c21169151fc_mini.jpg</string>
 			<key>repost</key>
-			<string>192</string>
+			<string>201</string>
 			<key>screen_name</key>
 			<string>爱笑de小公主</string>
 			<key>status</key>
@@ -1335,7 +1335,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.zk111.net/share/26786107.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.com.cn/share/26786107.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>750</string>
 		</dict>
@@ -1357,7 +1357,7 @@
 			<key>created_at</key>
 			<string>2017-11-20 09:00:02</string>
 			<key>ding</key>
-			<string>626</string>
+			<string>640</string>
 			<key>favourite</key>
 			<string>79</string>
 			<key>hate</key>
@@ -1377,7 +1377,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>626</string>
+			<string>640</string>
 			<key>name</key>
 			<string>强少-精彩视频gif动图</string>
 			<key>original_pid</key>
@@ -1385,9 +1385,9 @@
 			<key>passtime</key>
 			<string>2017-11-20 09:00:02</string>
 			<key>playcount</key>
-			<string>24538</string>
+			<string>25057</string>
 			<key>playfcount</key>
-			<string>2483</string>
+			<string>2534</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/07/09/5961fd7c0b115_mini.jpg</string>
 			<key>repost</key>
@@ -1427,7 +1427,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com/share/26843864.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.cn/share/26843864.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1435,25 +1435,25 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>11</string>
+			<string>12</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>71</string>
+			<string>73</string>
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/ugc/2017/11/18/5a0fd6ab9e309_1.jpg</string>
 			<key>comment</key>
-			<string>183</string>
+			<string>184</string>
 			<key>create_time</key>
 			<string>2017-11-18 14:43:55</string>
 			<key>created_at</key>
 			<string>2017-11-20 08:54:02</string>
 			<key>ding</key>
-			<string>306</string>
+			<string>309</string>
 			<key>favourite</key>
-			<string>11</string>
+			<string>12</string>
 			<key>hate</key>
-			<string>71</string>
+			<string>73</string>
 			<key>height</key>
 			<string>8982</string>
 			<key>id</key>
@@ -1467,7 +1467,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>306</string>
+			<string>309</string>
 			<key>name</key>
 			<string>臭宝蛋蛋</string>
 			<key>original_pid</key>
@@ -1513,7 +1513,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com/share/26847213.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.com/share/26847213.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>750</string>
 		</dict>
@@ -1521,7 +1521,7 @@
 			<key>bimageuri</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1117/52696eb8-cba4-11e7-96ec-d4ae5296039d_wpd.jpg</string>
 			<key>bookmark</key>
-			<string>305</string>
+			<string>309</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -1529,15 +1529,15 @@
 			<key>cdn_img</key>
 			<string>http://wimg.spriteapp.cn/picture/2017/1117/52696eb8-cba4-11e7-96ec-d4ae5296039d_wpd.jpg</string>
 			<key>comment</key>
-			<string>34</string>
+			<string>35</string>
 			<key>create_time</key>
 			<string>2017-11-17 22:33:47</string>
 			<key>created_at</key>
 			<string>2017-11-20 08:36:02</string>
 			<key>ding</key>
-			<string>503</string>
+			<string>514</string>
 			<key>favourite</key>
-			<string>305</string>
+			<string>309</string>
 			<key>hate</key>
 			<string>22</string>
 			<key>height</key>
@@ -1555,7 +1555,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>503</string>
+			<string>514</string>
 			<key>name</key>
 			<string>不交作业别想睡了</string>
 			<key>original_pid</key>
@@ -1563,13 +1563,13 @@
 			<key>passtime</key>
 			<string>2017-11-20 08:36:02</string>
 			<key>playcount</key>
-			<string>10932</string>
+			<string>11111</string>
 			<key>playfcount</key>
-			<string>1496</string>
+			<string>1517</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2017/11/02/59fada75627d6_mini.jpg</string>
 			<key>repost</key>
-			<string>159</string>
+			<string>163</string>
 			<key>screen_name</key>
 			<string>不交作业别想睡了</string>
 			<key>status</key>
@@ -1605,7 +1605,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.zk111.com.cn/share/26843772.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.net/share/26843772.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>360</string>
 		</dict>
@@ -1613,7 +1613,7 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>113</string>
+			<string>116</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
@@ -1627,9 +1627,9 @@
 			<key>created_at</key>
 			<string>2017-11-20 08:28:01</string>
 			<key>ding</key>
-			<string>544</string>
+			<string>548</string>
 			<key>favourite</key>
-			<string>113</string>
+			<string>116</string>
 			<key>hate</key>
 			<string>47</string>
 			<key>height</key>
@@ -1645,7 +1645,7 @@
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>544</string>
+			<string>548</string>
 			<key>name</key>
 			<string>臭宝蛋蛋</string>
 			<key>original_pid</key>
@@ -1691,7 +1691,7 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com/share/26740907.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.net/share/26740907.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>864</string>
 		</dict>
@@ -1705,13 +1705,13 @@
 			<key>cai</key>
 			<string>36</string>
 			<key>comment</key>
-			<string>49</string>
+			<string>52</string>
 			<key>create_time</key>
 			<string>2017-11-19 17:01:41</string>
 			<key>created_at</key>
 			<string>2017-11-20 08:24:35</string>
 			<key>ding</key>
-			<string>726</string>
+			<string>738</string>
 			<key>favourite</key>
 			<string>4</string>
 			<key>hate</key>
@@ -1721,7 +1721,7 @@
 			<key>id</key>
 			<string>26854486</string>
 			<key>love</key>
-			<string>726</string>
+			<string>738</string>
 			<key>name</key>
 			<string>陈一默</string>
 			<key>original_pid</key>

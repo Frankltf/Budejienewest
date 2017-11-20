@@ -29,9 +29,11 @@ static NSString * const ID=@"cell";
     [self.tableView registerNib:[UINib nibWithNibName:@"XMGContentTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
     self.tableView.scrollIndicatorInsets=self.tableView.contentInset;
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick:) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
-    
-    
-    
+    [self setuprefresh];
+}
+# pragma 上下拉刷新
+-(void)setuprefresh
+{
     MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
     [header setTitle:@"Pull down to refresh" forState:MJRefreshStateIdle];
     [header setTitle:@"Release to refresh" forState:MJRefreshStatePulling];
@@ -39,22 +41,14 @@ static NSString * const ID=@"cell";
     UIImage *image1=[UIImage imageNamed:@"cellmorebtnclick.png"];
     UIImage *image2=[UIImage imageNamed:@"cellmorebtnnormal.png"];
     UIImage *image3=[UIImage imageNamed:@"imageBackground.png"];
-//    NSArray *arr=@[image1,image2,image3];
-//    [header setImages:arr forState:MJRefreshStateIdle];
-    
-    
+    //    NSArray *arr=@[image1,image2,image3];
+    //    [header setImages:arr forState:MJRefreshStateIdle];
     NSArray *pullingImages = @[image1,image2,image3];
     [header setImages:pullingImages forState:MJRefreshStatePulling];
-    
-//    header.lastUpdatedTimeLabel.hidden = YES;
-//    header.stateLabel.hidden = YES;
-
-    
+    //    header.lastUpdatedTimeLabel.hidden = YES;
+    //    header.stateLabel.hidden = YES;
     self.tableView.mj_header = header;
-    
-    
     self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData2)];
-    
 }
 -(void)loadMoreData2
 {
