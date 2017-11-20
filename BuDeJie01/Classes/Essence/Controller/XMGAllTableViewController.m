@@ -49,6 +49,7 @@ static NSString * const ID=@"cell";
     //    header.stateLabel.hidden = YES;
     self.tableView.mj_header = header;
     self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData2)];
+    [self.tableView.mj_header beginRefreshing];
 }
 -(void)loadMoreData2
 {
@@ -119,12 +120,13 @@ static NSString * const ID=@"cell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     XMGContentTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     cell.textLabel.text=@"all";
+    XMGLog(@"%zd---%p",indexPath.row,cell);
     cell.topic=self.topic[indexPath.row];
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 222;
+    return 398;
 }
 
 

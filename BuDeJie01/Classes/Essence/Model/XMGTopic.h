@@ -8,7 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger,XMGTopicType) {
+    XMGTopicTypeAll=1,
+    XMGTopicTypePicture=10,
+    XMGTopicTypeWord=29,
+    XMGTopicTypeVoice=31,
+    XMGTopicTypeVideo=41,
+};
+
+
 @interface XMGTopic : NSObject
+
+
+
 @property (nonatomic, copy) NSString *name;
 /** 用户的头像 */
 @property (nonatomic, copy) NSString *profile_image;
