@@ -15,6 +15,8 @@
 static NSString * const ID=@"cell";
 @interface XMGAllTableViewController ()
 @property(nonatomic,strong)NSMutableArray *topic;
+
+@property(nonatomic,weak)MJRefreshHeader *header;
 @end
 
 @implementation XMGAllTableViewController
@@ -28,21 +30,41 @@ static NSString * const ID=@"cell";
     self.tableView.scrollIndicatorInsets=self.tableView.contentInset;
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick:) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
     
-    [self loadNewTopics];
     
-    // 设置回调（一旦进入刷新状态，就调用target的action，也就是调用self的loadNewData方法）
+    
     MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
-    // 设置普通状态的动画图片 (idleImages 是图片)
-    [header setImages:idleImages forState:MJRefreshStateIdle];
-    // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
+    [header setTitle:@"Pull down to refresh" forState:MJRefreshStateIdle];
+    [header setTitle:@"Release to refresh" forState:MJRefreshStatePulling];
+    [header setTitle:@"Loading ..." forState:MJRefreshStateRefreshing];
+    UIImage *image1=[UIImage imageNamed:@"cellmorebtnclick.png"];
+    UIImage *image2=[UIImage imageNamed:@"cellmorebtnnormal.png"];
+    UIImage *image3=[UIImage imageNamed:@"imageBackground.png"];
+//    NSArray *arr=@[image1,image2,image3];
+//    [header setImages:arr forState:MJRefreshStateIdle];
+    
+    
+    NSArray *pullingImages = @[image1,image2,image3];
     [header setImages:pullingImages forState:MJRefreshStatePulling];
-    // 设置正在刷新状态的动画图片
-    [header setImages:refreshingImages forState:MJRefreshStateRefreshing];
-    // 设置header
-    self.tableView.mj_header = header;
+    
+//    header.lastUpdatedTimeLabel.hidden = YES;
+//    header.stateLabel.hidden = YES;
 
     
+    self.tableView.mj_header = header;
+    
+    
+    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData2)];
+    
 }
+-(void)loadMoreData2
+{
+    [self loadNewTopics];
+}
+-(void)loadNewData
+{
+    [self loadNewTopics];
+}
+
 -(void)loadtopicnew
 {
     XMGFunc;
@@ -68,7 +90,8 @@ static NSString * const ID=@"cell";
         XMGWritePlist(all);
         // 字典数组 -> 模型数据
         self.topic = [XMGTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-        
+        [self.tableView.mj_header endRefreshing];
+         [self.tableView.mj_footer endRefreshing];
         // 刷新表格
         [self.tableView reloadData];
 //        

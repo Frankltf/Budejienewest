@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CE8D3A2F1150D4A3E968410 /* libPods-BuDeJie01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AF12733D710F5E7AE75E57 /* libPods-BuDeJie01.a */; };
 		8428268A1FBECFAF0068F003 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826891FBECFAF0068F003 /* XMGTopic.m */; };
+		8428268C1FC275DF0068F003 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428268B1FC275DF0068F003 /* loading.gif */; };
 		84B845261FA9B5330078D705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B845251FA9B5330078D705 /* main.m */; };
 		84B845311FA9B5330078D705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B845301FA9B5330078D705 /* Assets.xcassets */; };
 		84B845341FA9B5330078D705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B845321FA9B5330078D705 /* LaunchScreen.storyboard */; };
@@ -52,6 +53,7 @@
 		57AF12733D710F5E7AE75E57 /* libPods-BuDeJie01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842826881FBECFAF0068F003 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
 		842826891FBECFAF0068F003 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
+		8428268B1FC275DF0068F003 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../ipa/loading.gif; sourceTree = "<group>"; };
 		84B845211FA9B5330078D705 /* BuDeJie01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B845251FA9B5330078D705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B845301FA9B5330078D705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		84B845241FA9B5330078D705 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8428268B1FC275DF0068F003 /* loading.gif */,
 				84B845251FA9B5330078D705 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -571,6 +574,7 @@
 				84D59D8C1FB039C10038F834 /* XMGLoginViewController.xib in Resources */,
 				84D59DAA1FB183B80038F834 /* XMGContentTableViewCell.xib in Resources */,
 				84B845311FA9B5330078D705 /* Assets.xcassets in Resources */,
+				8428268C1FC275DF0068F003 /* loading.gif in Resources */,
 				84D59D871FB02CF90038F834 /* XMGFriendTrendViewController.xib in Resources */,
 				84D59D5F1FAD8F7B0038F834 /* XMGSubTagCell.xib in Resources */,
 			);
