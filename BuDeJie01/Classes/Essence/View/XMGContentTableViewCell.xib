@@ -34,8 +34,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfo-ot-4PX">
-                    <rect key="frame" x="10" y="50" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="middleTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfo-ot-4PX">
+                    <rect key="frame" x="10" y="50" width="350" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -98,13 +98,42 @@
                         <constraint firstItem="hAW-7i-82m" firstAttribute="leading" secondItem="6G1-c4-T8Z" secondAttribute="trailing" id="tNT-cT-MZ8"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="392-7a-dm1">
+                    <rect key="frame" x="10" y="322" width="355" height="42"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最热评论" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApL-0w-yuX">
+                            <rect key="frame" x="0.0" y="0.0" width="69.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论最热评论" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hO5-H4-IaE">
+                            <rect key="frame" x="0.0" y="21" width="355" height="21"/>
+                            <color key="backgroundColor" red="0.018600283575337606" green="0.052044183449058701" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87210573189999996" green="0.0" blue="0.086438222600000003" alpha="0.55091879399999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ApL-0w-yuX" firstAttribute="top" secondItem="392-7a-dm1" secondAttribute="top" id="Q5M-4m-Vqu"/>
+                        <constraint firstAttribute="bottom" secondItem="hO5-H4-IaE" secondAttribute="bottom" id="Vml-jT-G14"/>
+                        <constraint firstAttribute="trailing" secondItem="hO5-H4-IaE" secondAttribute="trailing" id="Yma-ig-8fO"/>
+                        <constraint firstItem="hO5-H4-IaE" firstAttribute="leading" secondItem="392-7a-dm1" secondAttribute="leading" id="rB6-kq-4nv"/>
+                        <constraint firstItem="ApL-0w-yuX" firstAttribute="leading" secondItem="392-7a-dm1" secondAttribute="leading" id="u8C-xh-piL"/>
+                        <constraint firstItem="hO5-H4-IaE" firstAttribute="top" secondItem="ApL-0w-yuX" secondAttribute="bottom" id="uLa-En-Eq7"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="pfo-ot-4PX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="0aI-gq-Nuj"/>
                 <constraint firstItem="v50-xF-5AI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3Vm-Ap-bg8"/>
+                <constraint firstItem="epR-4s-Yfq" firstAttribute="top" secondItem="392-7a-dm1" secondAttribute="bottom" id="6cO-7X-PYX"/>
                 <constraint firstItem="1PG-If-TWv" firstAttribute="leading" secondItem="GpX-yv-MNh" secondAttribute="trailing" constant="5" id="6oB-bx-5Ma"/>
                 <constraint firstItem="73Q-p3-Nta" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="7hV-BK-0Mj"/>
+                <constraint firstItem="pfo-ot-4PX" firstAttribute="top" secondItem="GpX-yv-MNh" secondAttribute="bottom" constant="5" id="9Qd-Gq-Fzv"/>
                 <constraint firstAttribute="trailing" secondItem="cMN-yD-7h5" secondAttribute="trailing" id="ABo-Fb-8Nk"/>
                 <constraint firstAttribute="bottom" secondItem="epR-4s-Yfq" secondAttribute="bottom" id="FhE-gl-6oz"/>
                 <constraint firstItem="cMN-yD-7h5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GjI-Lg-xii"/>
@@ -112,8 +141,12 @@
                 <constraint firstItem="epR-4s-Yfq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JIL-bq-3VH"/>
                 <constraint firstItem="pfo-ot-4PX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Jc4-LC-And"/>
                 <constraint firstAttribute="trailing" secondItem="73Q-p3-Nta" secondAttribute="trailing" constant="10" id="SKy-yD-l30"/>
+                <constraint firstItem="392-7a-dm1" firstAttribute="trailing" secondItem="73Q-p3-Nta" secondAttribute="trailing" id="VZV-bS-0KV"/>
                 <constraint firstItem="v50-xF-5AI" firstAttribute="leading" secondItem="GpX-yv-MNh" secondAttribute="trailing" constant="5" id="X1Q-Ic-9e1"/>
                 <constraint firstItem="epR-4s-Yfq" firstAttribute="top" secondItem="cMN-yD-7h5" secondAttribute="bottom" id="Yso-1W-1Tk"/>
+                <constraint firstAttribute="trailing" secondItem="pfo-ot-4PX" secondAttribute="trailing" constant="15" id="ZXS-8J-dkw"/>
+                <constraint firstItem="pfo-ot-4PX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ZZs-5u-DkG"/>
+                <constraint firstItem="392-7a-dm1" firstAttribute="leading" secondItem="pfo-ot-4PX" secondAttribute="leading" id="ZmB-oy-pOO"/>
                 <constraint firstItem="GpX-yv-MNh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cYq-lf-3vb"/>
                 <constraint firstAttribute="trailing" secondItem="epR-4s-Yfq" secondAttribute="trailing" id="gYx-yB-VKp"/>
                 <constraint firstItem="1PG-If-TWv" firstAttribute="bottom" secondItem="GpX-yv-MNh" secondAttribute="bottom" id="tFx-Uu-KHZ"/>
@@ -129,6 +162,8 @@
             <connections>
                 <outlet property="bottomlabel" destination="1PG-If-TWv" id="80z-PL-7vK"/>
                 <outlet property="image" destination="GpX-yv-MNh" id="SQh-ST-Irc"/>
+                <outlet property="pingluntext" destination="hO5-H4-IaE" id="bB5-89-qiq"/>
+                <outlet property="pinglunview" destination="392-7a-dm1" id="z94-In-htN"/>
                 <outlet property="rightlabel" destination="pfo-ot-4PX" id="mFq-M3-h4B"/>
                 <outlet property="toplabel" destination="v50-xF-5AI" id="LqN-qP-fkR"/>
             </connections>

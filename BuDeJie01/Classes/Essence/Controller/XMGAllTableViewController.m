@@ -14,7 +14,7 @@
 #import <MJExtension/MJExtension.h>
 static NSString * const ID=@"cell";
 @interface XMGAllTableViewController ()
-@property(nonatomic,strong)NSMutableArray *topic;
+@property(nonatomic,strong)NSMutableArray<XMGTopic *> *topic;
 
 @property(nonatomic,weak)MJRefreshHeader *header;
 @end
@@ -24,7 +24,7 @@ static NSString * const ID=@"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor=XMGColor(100, 200, 300);
+    self.view.backgroundColor=[UIColor redColor];
     self.tableView.contentInset = UIEdgeInsetsMake(99, 0, 49, 0);
     [self.tableView registerNib:[UINib nibWithNibName:@"XMGContentTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
     self.tableView.scrollIndicatorInsets=self.tableView.contentInset;
@@ -48,6 +48,7 @@ static NSString * const ID=@"cell";
     //    header.lastUpdatedTimeLabel.hidden = YES;
     //    header.stateLabel.hidden = YES;
     self.tableView.mj_header = header;
+//    self.tableView.estimatedRowHeight=100;
     self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData2)];
     [self.tableView.mj_header beginRefreshing];
 }
@@ -76,7 +77,7 @@ static NSString * const ID=@"cell";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"list";
     parameters[@"c"] = @"data";
-    parameters[@"type"] = @"1"; // 这里发送@1也是可行的
+    parameters[@"type"] = @"31"; // 这里发送@1也是可行的
     
     // 3.发送请求
     [mgr GET:XMGCommonURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
@@ -120,13 +121,15 @@ static NSString * const ID=@"cell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     XMGContentTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     cell.textLabel.text=@"all";
-    XMGLog(@"%zd---%p",indexPath.row,cell);
+//    XMGLog(@"%zd---%p",indexPath.row,cell);
     cell.topic=self.topic[indexPath.row];
     return cell;
 }
+
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 398;
+    XMGFunc;
+    return self.topic[indexPath.row].cellHeight;
 }
 
 

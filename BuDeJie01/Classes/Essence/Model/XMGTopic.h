@@ -37,4 +37,13 @@ typedef NS_ENUM(NSUInteger,XMGTopicType) {
 @property (nonatomic, assign) NSInteger repost;
 /** 评论数量 */
 @property (nonatomic, assign) NSInteger comment;
+/** 计算当前模型cell的高度*/
+@property(nonatomic,assign)CGFloat  cellHeight;
+
+/**  帖子类型  10为图片。29为段子。 31为音频。41为视频*/
+@property(nonatomic,assign)NSInteger type;
+/** 最热评论*/
+@property(nonatomic,strong)NSArray *top_cmt;
+
+
 @end

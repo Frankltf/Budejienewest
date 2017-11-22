@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *toplabel;
 @property (weak, nonatomic) IBOutlet UILabel *bottomlabel;
 @property (weak, nonatomic) IBOutlet UILabel *rightlabel;
+@property (weak, nonatomic) IBOutlet UIView *pinglunview;
+@property (weak, nonatomic) IBOutlet UILabel *pingluntext;
 
 @end
 
@@ -31,15 +33,22 @@
     
     UIImage *placeholder=[UIImage imageNamed:@"defaultUserIcon"];
     [self.image sd_setImageWithURL:[NSURL URLWithString:topic.profile_image] placeholderImage:placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        NSLog(@">>>>>>>>>>完成");
     }];
-    
+    if(topic.top_cmt.count){
+        self.pinglunview.hidden=NO;
+        NSDictionary *cmt = topic.top_cmt.firstObject;
+        NSString *content = cmt[@"content"];
+        if (content.length == 0) { // 语音评论
+            content = @"[语音评论]";
+        }
+        NSString *username = cmt[@"user"][@"username"];
+        self.pingluntext.text = [NSString stringWithFormat:@"%@ : %@", username, content];
+    }else{
+        self.pinglunview.hidden=YES;
+    }
     self.toplabel.text=topic.name;
-    self.bottomlabel.text=topic.text;
-    self.rightlabel.text=topic.passtime;
-    
-    
-    
+    self.bottomlabel.text=topic.passtime;
+    self.rightlabel.text=topic.text;
 }
 
 
