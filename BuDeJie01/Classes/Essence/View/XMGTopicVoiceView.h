@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class XMGTopic;
 @interface XMGTopicVoiceView : UIView
-
+@property(nonatomic,strong)XMGTopic *topic;
 @end

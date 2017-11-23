@@ -13,7 +13,7 @@
 		<key>page</key>
 		<integer>100</integer>
 		<key>vendor</key>
-		<string>six.jie.c</string>
+		<string>node94</string>
 	</dict>
 	<key>list</key>
 	<array>
@@ -59,7 +59,7 @@
 			<key>passtime</key>
 			<string>2017-10-12 10:50:47</string>
 			<key>playcount</key>
-			<string>29972</string>
+			<string>29974</string>
 			<key>playfcount</key>
 			<string>2363</string>
 			<key>profile_image</key>
@@ -124,7 +124,7 @@
 						<key>sex</key>
 						<string>m</string>
 						<key>total_cmt_like_count</key>
-						<string>20841</string>
+						<string>20843</string>
 						<key>username</key>
 						<string>霸道姐夫</string>
 						<key>weibo_uid</key>
@@ -151,7 +151,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2017/1011/59ddd50b6c8d8.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com.cn/share/26566993.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.com.cn/share/26566993.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>300</string>
 		</dict>
@@ -240,7 +240,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55dafc15020d9.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.zk111.net/share/15285835.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.com.cn/share/15285835.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -329,7 +329,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0825/55db78de0b522.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.net/share/15290872.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.com.cn/share/15290872.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -375,7 +375,7 @@
 			<key>passtime</key>
 			<string>2015-08-29 05:52:01</string>
 			<key>playcount</key>
-			<string>431920</string>
+			<string>431924</string>
 			<key>playfcount</key>
 			<string>54683</string>
 			<key>profile_image</key>
@@ -464,7 +464,7 @@
 			<key>passtime</key>
 			<string>2015-08-28 21:55:01</string>
 			<key>playcount</key>
-			<string>362895</string>
+			<string>362896</string>
 			<key>playfcount</key>
 			<string>43661</string>
 			<key>profile_image</key>
@@ -507,7 +507,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55da1f4923f65.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.mobi/share/15279801.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.net/share/15279801.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -596,7 +596,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55daa27d11e2c.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.zk111.net/share/15282455.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.mobi/share/15282455.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -684,7 +684,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55daf1929f517.mp3</string>
 			<key>weixin_url</key>
-			<string>http://a.f.budejie.com/share/15285482.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.budejie.com/share/15285482.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -773,7 +773,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0822/55d78125ee7b6.mp3</string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com.cn/share/15259263.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.cn/share/15259263.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -862,7 +862,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55db32e32e90f.mp3</string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.net/share/15288728.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.com.cn/share/15288728.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -951,7 +951,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0823/55d9e030db56c.mp3</string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com/share/15277998.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.zk111.com.cn/share/15277998.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1039,7 +1039,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0813/55cb7ad61ff03.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/15156635.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.mobi/share/15156635.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1178,7 +1178,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0824/55d9ef6befdba.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/15278852.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.com/share/15278852.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1267,7 +1267,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0818/55d26209e9db6.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.zk111.net/share/15215565.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.cn/share/15215565.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1356,7 +1356,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0821/55d60b8493aad.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.net/share/15248850.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.com.cn/share/15248850.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1445,7 +1445,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0820/55d4bb9f92bfb.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com/share/15237384.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.zk111.com.cn/share/15237384.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1534,7 +1534,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0816/55cfb19452e9b.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.zk111.net/share/15193576.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.net/share/15193576.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1625,7 +1625,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0820/55d51a872a30d.mp3</string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.net/share/15238632.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.winapp111.mobi/share/15238632.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1714,7 +1714,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0819/55d3a4ee648b6.mp3</string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com/share/15226588.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.mobi/share/15226588.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1803,7 +1803,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0818/55d2248309b09.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.mobi/share/15215117.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.budejie.com/share/15215117.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>
@@ -1892,7 +1892,7 @@
 			<key>voiceuri</key>
 			<string>http://wvoice.spriteapp.cn/voice/2015/0818/55d263e70c395.mp3</string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.mobi/share/15215590.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.net/share/15215590.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>640</string>
 		</dict>

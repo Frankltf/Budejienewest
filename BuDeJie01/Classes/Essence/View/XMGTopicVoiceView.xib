@@ -12,12 +12,72 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGTopicVoiceView">
-            <rect key="frame" x="0.0" y="0.0" width="182" height="145"/>
+            <rect key="frame" x="0.0" y="0.0" width="314" height="257"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYN-Iv-wXa">
+                    <rect key="frame" x="0.0" y="0.0" width="314" height="257"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="meQ-YA-Vwh">
+                            <rect key="frame" x="0.0" y="0.0" width="314" height="257"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wm8-H3-w4f">
+                            <rect key="frame" x="125.5" y="97" width="63" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="63" id="K5c-Ja-K4N"/>
+                            </constraints>
+                            <state key="normal" image="playButtonPlay" backgroundImage="playButton"/>
+                            <connections>
+                                <action selector="playbtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="dLj-qW-wU3"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7n-Ea-6Wf">
+                            <rect key="frame" x="272" y="0.0" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSc-Kr-sem">
+                            <rect key="frame" x="272" y="236" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="meQ-YA-Vwh" firstAttribute="leading" secondItem="uYN-Iv-wXa" secondAttribute="leading" id="5Ae-1y-Qb2"/>
+                        <constraint firstItem="Wm8-H3-w4f" firstAttribute="centerY" secondItem="uYN-Iv-wXa" secondAttribute="centerY" id="FKZ-3x-sdQ"/>
+                        <constraint firstItem="meQ-YA-Vwh" firstAttribute="top" secondItem="uYN-Iv-wXa" secondAttribute="top" id="HNN-4T-eSg"/>
+                        <constraint firstAttribute="bottom" secondItem="VSc-Kr-sem" secondAttribute="bottom" id="Xsq-5K-fBt"/>
+                        <constraint firstAttribute="trailing" secondItem="meQ-YA-Vwh" secondAttribute="trailing" id="ZsD-vD-QOw"/>
+                        <constraint firstItem="Wm8-H3-w4f" firstAttribute="centerX" secondItem="uYN-Iv-wXa" secondAttribute="centerX" id="cee-D4-eOo"/>
+                        <constraint firstAttribute="trailing" secondItem="E7n-Ea-6Wf" secondAttribute="trailing" id="dhV-iB-iyl"/>
+                        <constraint firstAttribute="trailing" secondItem="VSc-Kr-sem" secondAttribute="trailing" id="jew-L5-pEn"/>
+                        <constraint firstItem="E7n-Ea-6Wf" firstAttribute="top" secondItem="uYN-Iv-wXa" secondAttribute="top" id="pD3-pr-uyc"/>
+                        <constraint firstAttribute="bottom" secondItem="meQ-YA-Vwh" secondAttribute="bottom" id="wue-lV-VXc"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uYN-Iv-wXa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GyB-fc-3Yg"/>
+                <constraint firstItem="uYN-Iv-wXa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="R0J-tz-vWI"/>
+                <constraint firstAttribute="bottom" secondItem="uYN-Iv-wXa" secondAttribute="bottom" id="hfq-kJ-fOD"/>
+                <constraint firstAttribute="trailing" secondItem="uYN-Iv-wXa" secondAttribute="trailing" id="q9c-B9-efr"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-72" y="312.5"/>
+            <connections>
+                <outlet property="bottomlabel" destination="VSc-Kr-sem" id="g8D-C4-qIp"/>
+                <outlet property="toplabel" destination="E7n-Ea-6Wf" id="V3X-C6-cdV"/>
+                <outlet property="voiceimageview" destination="meQ-YA-Vwh" id="gpk-dK-IGT"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="256.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="playButton" width="63" height="63"/>
+        <image name="playButtonPlay" width="30" height="30"/>
+    </resources>
 </document>

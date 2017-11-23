@@ -105,6 +105,7 @@
         case 31:
             self.vedioview.hidden=YES;
             self.voiceview.hidden=NO;
+            self.voiceview.topic=topic;
             self.picture.hidden=YES;
             break;
         case 41:

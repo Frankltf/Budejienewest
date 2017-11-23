@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "XMGViewController.h"
+#import <AFNetworking.h>
+
 @interface AppDelegate ()
 
 @end
@@ -28,7 +30,7 @@
 
     self.window.rootViewController=ad;
 
-    
+    [[AFNetworkReachabilityManager sharedManager]startMonitoring];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -51,4 +51,13 @@ typedef NS_ENUM(NSUInteger,XMGTopicType) {
 @property (nonatomic, assign) NSInteger height;
 
 @property(nonatomic,assign)CGRect middleFrame;
+
+@property(nonatomic,copy)NSString *image0;
+@property(nonatomic,copy)NSString *image2;
+@property(nonatomic,copy)NSString *image1;
+
+@property(nonatomic,assign)NSInteger voicetime;
+@property(nonatomic,assign)NSInteger videotime;
+@property(nonatomic,assign)NSInteger playcount;
+
 @end
