@@ -45,5 +45,10 @@ typedef NS_ENUM(NSUInteger,XMGTopicType) {
 /** 最热评论*/
 @property(nonatomic,strong)NSArray *top_cmt;
 
+/** 宽度(像素) */
+@property (nonatomic, assign) NSInteger width;
+/** 高度(像素) */
+@property (nonatomic, assign) NSInteger height;
 
+@property(nonatomic,assign)CGRect middleFrame;
 @end

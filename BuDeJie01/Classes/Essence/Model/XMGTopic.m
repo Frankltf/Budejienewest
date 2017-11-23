@@ -16,7 +16,16 @@
     _cellHeight+=55;
     CGSize textMaxSize=CGSizeMake(XMGScreenW-30, MAXFLOAT);
     _cellHeight += [self.text boundingRectWithSize:textMaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15]} context:nil].size.height+15;
-    _cellHeight += 35+15;
+    
+    if(self.type != 29){
+        CGFloat middleW=textMaxSize.width;
+        CGFloat middleH=middleW * self.height / self.width;
+        CGFloat middleX=15;
+        CGFloat middleY=_cellHeight;
+        self.middleFrame=CGRectMake(middleX, middleY, middleW, middleH);
+        _cellHeight += middleH+15;
+    }
+    _cellHeight += 35;
     if(self.top_cmt.count){
         _cellHeight += 21;
         
@@ -30,7 +39,7 @@
         _cellHeight += [cmtText boundingRectWithSize:textMaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil].size.height+15;
         
     }
-    XMGLog(@"%f",_cellHeight);
+
     return  _cellHeight;
     
 }

@@ -10,6 +10,10 @@
 
 @implementation UIView (Frame)
 
++(instancetype)xmg_viewfromxib
+{
+    return  [[NSBundle mainBundle]loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
 -(void)setXmg_width:(CGFloat)xmg_width
 {
     CGRect rect=self.frame;
@@ -21,10 +25,10 @@
     CGRect rect=self.frame;
     return rect.size.width;
 }
--(void)setXmg_heiht:(CGFloat)xmg_heiht
+-(void)setXmg_height:(CGFloat)xmg_height
 {
     CGRect rect=self.frame;
-    rect.size.height=xmg_heiht;
+    rect.size.height=xmg_height;
     self.frame=rect;
 }
 -(CGFloat)xmg_height

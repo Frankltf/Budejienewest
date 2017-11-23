@@ -102,15 +102,15 @@ static NSString * const ID=@"cell";
 }
 -(void)dealloc
 {
-    XMGFunc;
+
     [[NSNotificationCenter defaultCenter]removeObserver:XMGTabBarButtonDidRepeatClickNotification];
 }
 -(void)tabBarButtonDidRepeatClick:(NSNotification *)nsn
 {
-    NSLog(@"%@",nsn);
+
     if (self.view.window == nil) return;
     if(self.tableView.scrollsToTop==NO)return;
-    XMGFunc;
+
 }
 
 
@@ -128,7 +128,7 @@ static NSString * const ID=@"cell";
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    XMGFunc;
+
     return self.topic[indexPath.row].cellHeight;
 }
 

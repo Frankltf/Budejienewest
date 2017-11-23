@@ -10,6 +10,12 @@
 		3CE8D3A2F1150D4A3E968410 /* libPods-BuDeJie01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AF12733D710F5E7AE75E57 /* libPods-BuDeJie01.a */; };
 		8428268A1FBECFAF0068F003 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826891FBECFAF0068F003 /* XMGTopic.m */; };
 		8428268C1FC275DF0068F003 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428268B1FC275DF0068F003 /* loading.gif */; };
+		842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C11FC527EA0068F003 /* XMGTopicVedioView.m */; };
+		842826C51FC528080068F003 /* XMGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C41FC528080068F003 /* XMGTopicVoiceView.m */; };
+		842826C81FC528270068F003 /* XMGTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C71FC528270068F003 /* XMGTopicPictureView.m */; };
+		842826CA1FC528380068F003 /* XMGTopicVedioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842826C91FC528380068F003 /* XMGTopicVedioView.xib */; };
+		842826CC1FC528480068F003 /* XMGTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842826CB1FC528480068F003 /* XMGTopicVoiceView.xib */; };
+		842826CE1FC528540068F003 /* XMGTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842826CD1FC528540068F003 /* XMGTopicPictureView.xib */; };
 		84B845261FA9B5330078D705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B845251FA9B5330078D705 /* main.m */; };
 		84B845311FA9B5330078D705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B845301FA9B5330078D705 /* Assets.xcassets */; };
 		84B845341FA9B5330078D705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B845321FA9B5330078D705 /* LaunchScreen.storyboard */; };
@@ -54,6 +60,15 @@
 		842826881FBECFAF0068F003 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
 		842826891FBECFAF0068F003 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
 		8428268B1FC275DF0068F003 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../ipa/loading.gif; sourceTree = "<group>"; };
+		842826C01FC527EA0068F003 /* XMGTopicVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVedioView.h; sourceTree = "<group>"; };
+		842826C11FC527EA0068F003 /* XMGTopicVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVedioView.m; sourceTree = "<group>"; };
+		842826C31FC528080068F003 /* XMGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVoiceView.h; sourceTree = "<group>"; };
+		842826C41FC528080068F003 /* XMGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVoiceView.m; sourceTree = "<group>"; };
+		842826C61FC528270068F003 /* XMGTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicPictureView.h; sourceTree = "<group>"; };
+		842826C71FC528270068F003 /* XMGTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicPictureView.m; sourceTree = "<group>"; };
+		842826C91FC528380068F003 /* XMGTopicVedioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVedioView.xib; sourceTree = "<group>"; };
+		842826CB1FC528480068F003 /* XMGTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVoiceView.xib; sourceTree = "<group>"; };
+		842826CD1FC528540068F003 /* XMGTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicPictureView.xib; sourceTree = "<group>"; };
 		84B845211FA9B5330078D705 /* BuDeJie01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B845251FA9B5330078D705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B845301FA9B5330078D705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -241,6 +256,15 @@
 				84D59DA61FB183AF0038F834 /* XMGContentTableViewCell.h */,
 				84D59DA71FB183AF0038F834 /* XMGContentTableViewCell.m */,
 				84D59DA91FB183B80038F834 /* XMGContentTableViewCell.xib */,
+				842826C01FC527EA0068F003 /* XMGTopicVedioView.h */,
+				842826C91FC528380068F003 /* XMGTopicVedioView.xib */,
+				842826C11FC527EA0068F003 /* XMGTopicVedioView.m */,
+				842826C31FC528080068F003 /* XMGTopicVoiceView.h */,
+				842826CB1FC528480068F003 /* XMGTopicVoiceView.xib */,
+				842826C41FC528080068F003 /* XMGTopicVoiceView.m */,
+				842826C61FC528270068F003 /* XMGTopicPictureView.h */,
+				842826C71FC528270068F003 /* XMGTopicPictureView.m */,
+				842826CD1FC528540068F003 /* XMGTopicPictureView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -575,6 +599,9 @@
 				84D59DAA1FB183B80038F834 /* XMGContentTableViewCell.xib in Resources */,
 				84B845311FA9B5330078D705 /* Assets.xcassets in Resources */,
 				8428268C1FC275DF0068F003 /* loading.gif in Resources */,
+				842826CC1FC528480068F003 /* XMGTopicVoiceView.xib in Resources */,
+				842826CE1FC528540068F003 /* XMGTopicPictureView.xib in Resources */,
+				842826CA1FC528380068F003 /* XMGTopicVedioView.xib in Resources */,
 				84D59D871FB02CF90038F834 /* XMGFriendTrendViewController.xib in Resources */,
 				84D59D5F1FAD8F7B0038F834 /* XMGSubTagCell.xib in Resources */,
 			);
@@ -660,6 +687,7 @@
 				84D59D261FAC284C0038F834 /* XMGSettingViewController.m in Sources */,
 				84D59DA81FB183AF0038F834 /* XMGContentTableViewCell.m in Sources */,
 				84C5AFE81FB9940A00DFC42B /* XMGConst.m in Sources */,
+				842826C81FC528270068F003 /* XMGTopicPictureView.m in Sources */,
 				84B845741FA9C7EE0078D705 /* UIImage+Image.m in Sources */,
 				84B845701FA9C11F0078D705 /* XMGtabBarViewController.m in Sources */,
 				84D59DA51FB161D30038F834 /* XMGEssenceViewController.m in Sources */,
@@ -668,7 +696,9 @@
 				84D59DA21FB1616E0038F834 /* XMGWordTableViewController.m in Sources */,
 				84B845261FA9B5330078D705 /* main.m in Sources */,
 				84B845691FA9BEB70078D705 /* XMGMeViewController.m in Sources */,
+				842826C51FC528080068F003 /* XMGTopicVoiceView.m in Sources */,
 				84B845631FA9BE770078D705 /* XMGPublishViewController.m in Sources */,
+				842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */,
 				84D59D961FB161350038F834 /* XMGAllTableViewController.m in Sources */,
 				84B8459A1FAB14520078D705 /* UIView+Frame.m in Sources */,
 			);

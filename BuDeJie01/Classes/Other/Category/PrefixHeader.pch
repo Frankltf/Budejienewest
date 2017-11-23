@@ -1,6 +1,6 @@
 
 #import "XMGConst.h"
-
+#import "UIView+Frame.h"
 #define XMGScreenW [UIScreen mainScreen].bounds.size.width
 #define XMGScreenH [UIScreen mainScreen].bounds.size.height
 #define iphone6P (XMGScreen == 736)

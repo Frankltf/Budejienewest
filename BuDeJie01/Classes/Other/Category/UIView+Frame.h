@@ -14,5 +14,5 @@
 @property CGFloat xmg_height;
 @property CGFloat xmg_x;
 @property CGFloat xmg_y;
-
++(instancetype)xmg_viewfromxib;
 @end
