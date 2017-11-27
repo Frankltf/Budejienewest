@@ -11,6 +11,7 @@
 #import <UIImageView+WebCache.h>
 #import "XMGTopic.h"
 #import "UIImageView+Download.h"
+#import "XMGSeeBigImageViewController.h"
 @interface XMGTopicPictureView ()
 @property (weak, nonatomic) IBOutlet UIImageView *pictureimage;
 @property (weak, nonatomic) IBOutlet UIImageView *gitimage;
@@ -26,6 +27,15 @@
 {
     [super awakeFromNib];
     self.autoresizingMask = UIViewAutoresizingNone;
+    self.pictureimage.userInteractionEnabled=YES;
+    UIGestureRecognizer *addlisten=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(seeBig)];
+    [self.pictureimage addGestureRecognizer:addlisten];
+}
+-(void)seeBig
+{
+    XMGSeeBigImageViewController *seebig=[[XMGSeeBigImageViewController alloc]init];
+    seebig.topic=self.topic;
+    [self.window.rootViewController presentViewController:seebig animated:YES completion:nil];
 }
 - (IBAction)bigbtn:(UIButton *)sender {
 }

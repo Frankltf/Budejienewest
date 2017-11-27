@@ -56,4 +56,26 @@
 {
     return self.frame.origin.y;
 }
+-(CGFloat)xmg_centerX
+{
+    return self.center.x;
+}
+-(CGFloat)xmg_centerY
+{
+    return self.center.y;
+}
+-(void)setXmg_centerX:(CGFloat)xmg_centerX
+{
+    CGPoint center=self.center;
+    center.x=xmg_centerX;
+    self.center=center;
+}
+-(void)setXmg_centerY:(CGFloat)xmg_centerY
+{
+    CGPoint center=self.center;
+    center.y=xmg_centerY;
+    self.center=center;
+}
+
+
 @end

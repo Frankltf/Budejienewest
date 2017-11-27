@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3CE8D3A2F1150D4A3E968410 /* libPods-BuDeJie01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AF12733D710F5E7AE75E57 /* libPods-BuDeJie01.a */; };
 		840ECC861FCBACE200FDE490 /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECC851FCBACE200FDE490 /* UIImageView+Download.m */; };
+		840ECC8E1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECC8D1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m */; };
+		840ECC901FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840ECC8F1FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib */; };
 		8428268A1FBECFAF0068F003 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826891FBECFAF0068F003 /* XMGTopic.m */; };
 		8428268C1FC275DF0068F003 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428268B1FC275DF0068F003 /* loading.gif */; };
 		842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C11FC527EA0068F003 /* XMGTopicVedioView.m */; };
@@ -60,6 +62,9 @@
 		57AF12733D710F5E7AE75E57 /* libPods-BuDeJie01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840ECC841FCBACE200FDE490 /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
 		840ECC851FCBACE200FDE490 /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
+		840ECC8C1FCBBD9700FDE490 /* XMGSeeBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSeeBigImageViewController.h; sourceTree = "<group>"; };
+		840ECC8D1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSeeBigImageViewController.m; sourceTree = "<group>"; };
+		840ECC8F1FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSeeBigImageViewController.xib; sourceTree = "<group>"; };
 		842826881FBECFAF0068F003 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
 		842826891FBECFAF0068F003 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
 		8428268B1FC275DF0068F003 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../ipa/loading.gif; sourceTree = "<group>"; };
@@ -249,6 +254,9 @@
 				84D59DA11FB1616E0038F834 /* XMGWordTableViewController.m */,
 				84D59DA31FB161D30038F834 /* XMGEssenceViewController.h */,
 				84D59DA41FB161D30038F834 /* XMGEssenceViewController.m */,
+				840ECC8C1FCBBD9700FDE490 /* XMGSeeBigImageViewController.h */,
+				840ECC8D1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m */,
+				840ECC8F1FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -606,6 +614,7 @@
 				8428268C1FC275DF0068F003 /* loading.gif in Resources */,
 				842826CC1FC528480068F003 /* XMGTopicVoiceView.xib in Resources */,
 				842826CE1FC528540068F003 /* XMGTopicPictureView.xib in Resources */,
+				840ECC901FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib in Resources */,
 				842826CA1FC528380068F003 /* XMGTopicVedioView.xib in Resources */,
 				84D59D871FB02CF90038F834 /* XMGFriendTrendViewController.xib in Resources */,
 				84D59D5F1FAD8F7B0038F834 /* XMGSubTagCell.xib in Resources */,
@@ -684,6 +693,7 @@
 				84D59D9F1FB161620038F834 /* XMGPictureTableViewController.m in Sources */,
 				84B8459D1FAB3ED60078D705 /* UIBarButtonItem+Item.m in Sources */,
 				84D59D5A1FAD8E8D0038F834 /* XMGSubTagTableViewController.m in Sources */,
+				840ECC8E1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m in Sources */,
 				84D59D2D1FAC3EC80038F834 /* XMGViewController.m in Sources */,
 				84D59D231FAC1D180038F834 /* XMGNavigationController.m in Sources */,
 				84B845601FA9BE4D0078D705 /* XMGFriendTrendViewController.m in Sources */,
