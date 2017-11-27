@@ -97,24 +97,25 @@
 -(void)addxibfromview:(XMGTopic *)topic
 {
     switch (topic.type) {
-        case 10:
-            self.vedioview.hidden=NO;
+        case XMGTopicTypePicture:
+            self.vedioview.hidden=YES;
             self.voiceview.hidden=YES;
-            self.picture.hidden=YES;
+            self.picture.hidden=NO;
+            self.picture.topic=topic;
             break;
-        case 31:
+        case XMGTopicTypeVoice:
             self.vedioview.hidden=YES;
             self.voiceview.hidden=NO;
             self.voiceview.topic=topic;
             self.picture.hidden=YES;
             break;
-        case 41:
-           
-            self.picture.hidden=NO;
+        case XMGTopicTypeVideo:
+            self.vedioview.hidden=NO;
             self.vedioview.hidden=YES;
+            self.vedioview.topic=topic;
             self.voiceview.hidden=YES;
             break;
-        case 29:
+        case XMGTopicTypeWord:
             self.vedioview.hidden=YES;
             self.voiceview.hidden=YES;
             self.picture.hidden=YES;
@@ -131,17 +132,17 @@
     NSLog(@"%@",NSStringFromCGRect(self.topic.middleFrame));
 
     switch (self.topic.type) {
-        case 10:
-            self.vedioview.frame=self.topic.middleFrame;
+        case XMGTopicTypePicture:
+            self.picture.frame=self.topic.middleFrame;
         
             break;
-        case 31:
+        case XMGTopicTypeVoice:
             self.voiceview.frame=self.topic.middleFrame;
             break;
-        case 41:
-            self.picture.frame=self.topic.middleFrame;
+        case XMGTopicTypeVideo:
+            self.vedioview.frame=self.topic.middleFrame;
             break;
-        case 29:
+        case XMGTopicTypeWord:
             
             break;
         default:

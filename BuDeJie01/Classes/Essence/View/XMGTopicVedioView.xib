@@ -12,12 +12,69 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGTopicVedioView">
-            <rect key="frame" x="0.0" y="0.0" width="222" height="114"/>
+            <rect key="frame" x="0.0" y="0.0" width="343" height="226"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cf-r3-a2W">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="226"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TUG-IM-viL">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="226"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9B-Zb-5oI">
+                            <rect key="frame" x="301" y="0.0" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78w-h1-RFB">
+                            <rect key="frame" x="301" y="205" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Yx-4a0">
+                            <rect key="frame" x="139.5" y="81.5" width="63" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="63" id="PFq-41-oAq"/>
+                                <constraint firstAttribute="width" constant="63" id="jLT-bf-aLS"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="video-play"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="TUG-IM-viL" firstAttribute="leading" secondItem="0cf-r3-a2W" secondAttribute="leading" id="5Tx-50-t32"/>
+                        <constraint firstAttribute="trailing" secondItem="TUG-IM-viL" secondAttribute="trailing" id="8o0-cW-FLh"/>
+                        <constraint firstAttribute="trailing" secondItem="78w-h1-RFB" secondAttribute="trailing" id="Nt3-jz-wKC"/>
+                        <constraint firstItem="8FO-Yx-4a0" firstAttribute="centerX" secondItem="0cf-r3-a2W" secondAttribute="centerX" id="XeR-Cs-8ZH"/>
+                        <constraint firstItem="V9B-Zb-5oI" firstAttribute="top" secondItem="0cf-r3-a2W" secondAttribute="top" id="a0a-g4-QOX"/>
+                        <constraint firstItem="TUG-IM-viL" firstAttribute="top" secondItem="0cf-r3-a2W" secondAttribute="top" id="hmU-SE-xAQ"/>
+                        <constraint firstAttribute="trailing" secondItem="V9B-Zb-5oI" secondAttribute="trailing" id="lBj-AG-dAT"/>
+                        <constraint firstAttribute="bottom" secondItem="78w-h1-RFB" secondAttribute="bottom" id="vTu-rR-oRF"/>
+                        <constraint firstAttribute="bottom" secondItem="TUG-IM-viL" secondAttribute="bottom" id="vWf-ij-GpM"/>
+                        <constraint firstItem="8FO-Yx-4a0" firstAttribute="centerY" secondItem="0cf-r3-a2W" secondAttribute="centerY" id="xBa-io-wUC"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="0.87210573189999996" green="0.0" blue="0.086438222600000003" alpha="0.55091879399999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0cf-r3-a2W" secondAttribute="trailing" id="UZu-kp-3w5"/>
+                <constraint firstAttribute="bottom" secondItem="0cf-r3-a2W" secondAttribute="bottom" id="Y3o-4A-eP3"/>
+                <constraint firstItem="0cf-r3-a2W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ys4-2a-h6S"/>
+                <constraint firstItem="0cf-r3-a2W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vEa-xm-jo5"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-52" y="328"/>
+            <connections>
+                <outlet property="bottomlabel" destination="78w-h1-RFB" id="MPB-hu-OaO"/>
+                <outlet property="toplabel" destination="V9B-Zb-5oI" id="sOh-gh-7pv"/>
+                <outlet property="vedioimage" destination="TUG-IM-viL" id="aVb-UW-7AG"/>
+            </connections>
+            <point key="canvasLocation" x="8.5" y="272"/>
         </view>
     </objects>
+    <resources>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
 </document>

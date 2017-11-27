@@ -10,4 +10,5 @@
 
 @interface UIImage (Image)
 +(UIImage *)imageOriginalWithName:(NSString *)imageName;
+
 @end

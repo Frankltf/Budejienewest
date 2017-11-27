@@ -11,6 +11,7 @@
 #import <AFNetworking/AFNetworking.h>
 #import <MJRefresh/MJRefresh.h>
 #import "XMGTopic.h"
+#import <SDImageCache.h>
 #import <MJExtension/MJExtension.h>
 static NSString * const ID=@"cell";
 @interface XMGAllTableViewController ()
@@ -77,7 +78,7 @@ static NSString * const ID=@"cell";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"list";
     parameters[@"c"] = @"data";
-    parameters[@"type"] = @"31"; // 这里发送@1也是可行的
+    parameters[@"type"] = @"10"; // 这里发送@1也是可行的
     
     // 3.发送请求
     [mgr GET:XMGCommonURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
@@ -131,6 +132,9 @@ static NSString * const ID=@"cell";
 
     return self.topic[indexPath.row].cellHeight;
 }
-
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [[SDImageCache sharedImageCache]clearMemory];
+}
 
 @end

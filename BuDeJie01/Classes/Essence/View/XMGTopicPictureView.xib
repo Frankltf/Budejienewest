@@ -12,12 +12,79 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGTopicPictureView">
-            <rect key="frame" x="0.0" y="0.0" width="196" height="106"/>
+            <rect key="frame" x="0.0" y="0.0" width="328" height="242"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UoW-Iu-ZKu">
+                    <rect key="frame" x="0.0" y="0.0" width="328" height="242"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="yZA-Mv-oFX">
+                            <rect key="frame" x="0.0" y="20" width="328" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="ixM-De-RtE"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nlc-1h-0cq">
+                            <rect key="frame" x="0.0" y="0.0" width="328" height="242"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common-gif" translatesAutoresizingMaskIntoConstraints="NO" id="2q5-aw-h4R">
+                            <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="31" id="dI6-Nb-77n"/>
+                                <constraint firstAttribute="height" constant="31" id="glQ-E3-2ct"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aO2-w9-f07">
+                            <rect key="frame" x="0.0" y="199" width="328" height="43"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="43" id="Dzc-rw-05K"/>
+                            </constraints>
+                            <state key="normal" title="点击查看大图" image="see-big-picture" backgroundImage="see-big-picture-background"/>
+                            <connections>
+                                <action selector="bigbtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="SMY-fy-S5e"/>
+                                <action selector="seebigimage:" destination="iN0-l3-epB" eventType="touchUpInside" id="2TO-W0-gtC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Nlc-1h-0cq" secondAttribute="trailing" id="1wP-As-XQ3"/>
+                        <constraint firstAttribute="bottom" secondItem="Nlc-1h-0cq" secondAttribute="bottom" id="2se-jM-w07"/>
+                        <constraint firstItem="yZA-Mv-oFX" firstAttribute="leading" secondItem="UoW-Iu-ZKu" secondAttribute="leading" id="FBv-l6-Zx2"/>
+                        <constraint firstAttribute="trailing" secondItem="yZA-Mv-oFX" secondAttribute="trailing" id="HS3-Wm-Zj4"/>
+                        <constraint firstItem="2q5-aw-h4R" firstAttribute="top" secondItem="UoW-Iu-ZKu" secondAttribute="top" id="Qcb-Hp-Zlj"/>
+                        <constraint firstItem="2q5-aw-h4R" firstAttribute="leading" secondItem="UoW-Iu-ZKu" secondAttribute="leading" id="UMn-0I-lTu"/>
+                        <constraint firstItem="aO2-w9-f07" firstAttribute="leading" secondItem="UoW-Iu-ZKu" secondAttribute="leading" id="ayE-wn-7n4"/>
+                        <constraint firstItem="yZA-Mv-oFX" firstAttribute="top" secondItem="UoW-Iu-ZKu" secondAttribute="top" constant="20" id="bkg-bn-Nry"/>
+                        <constraint firstAttribute="bottom" secondItem="aO2-w9-f07" secondAttribute="bottom" id="hR9-BQ-Fby"/>
+                        <constraint firstAttribute="trailing" secondItem="aO2-w9-f07" secondAttribute="trailing" id="kKU-0M-xxe"/>
+                        <constraint firstItem="Nlc-1h-0cq" firstAttribute="top" secondItem="UoW-Iu-ZKu" secondAttribute="top" id="mmF-kd-l3g"/>
+                        <constraint firstItem="Nlc-1h-0cq" firstAttribute="leading" secondItem="UoW-Iu-ZKu" secondAttribute="leading" id="zGw-H4-Zxu"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UoW-Iu-ZKu" secondAttribute="trailing" id="Exg-VV-UR5"/>
+                <constraint firstItem="UoW-Iu-ZKu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bMc-FV-mxI"/>
+                <constraint firstAttribute="bottom" secondItem="UoW-Iu-ZKu" secondAttribute="bottom" id="poG-hY-NfF"/>
+                <constraint firstItem="UoW-Iu-ZKu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tIQ-kE-ARR"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-65" y="332"/>
+            <connections>
+                <outlet property="bigbtn" destination="aO2-w9-f07" id="lVP-JM-VsH"/>
+                <outlet property="gitimage" destination="2q5-aw-h4R" id="l9J-0n-WPp"/>
+                <outlet property="pictureimage" destination="Nlc-1h-0cq" id="SRt-Cd-pAL"/>
+                <outlet property="placeimage" destination="yZA-Mv-oFX" id="oBt-ra-JDn"/>
+            </connections>
+            <point key="canvasLocation" x="1" y="264"/>
         </view>
     </objects>
+    <resources>
+        <image name="common-gif" width="31" height="31"/>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="see-big-picture" width="19" height="19"/>
+        <image name="see-big-picture-background" width="285" height="43"/>
+    </resources>
 </document>

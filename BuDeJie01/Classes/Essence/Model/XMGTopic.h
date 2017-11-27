@@ -9,10 +9,15 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger,XMGTopicType) {
+     /** 全部 */
     XMGTopicTypeAll=1,
+     /** 图片 */
     XMGTopicTypePicture=10,
+     /** 段子 */
     XMGTopicTypeWord=29,
+    /** 声音 */
     XMGTopicTypeVoice=31,
+    /** 视频 */
     XMGTopicTypeVideo=41,
 };
 
@@ -59,5 +64,6 @@ typedef NS_ENUM(NSUInteger,XMGTopicType) {
 @property(nonatomic,assign)NSInteger voicetime;
 @property(nonatomic,assign)NSInteger videotime;
 @property(nonatomic,assign)NSInteger playcount;
+@property(nonatomic,assign,getter=isBigpic) BOOL bigpic;
 
 @end

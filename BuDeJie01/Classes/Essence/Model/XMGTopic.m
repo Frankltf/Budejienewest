@@ -20,6 +20,12 @@
     if(self.type != 29){
         CGFloat middleW=textMaxSize.width;
         CGFloat middleH=middleW * self.height / self.width;
+        if(middleH >= XMGScreenH){
+            middleH=200;
+            self.bigpic=YES;
+        }else{
+            self.bigpic=NO;
+        }
         CGFloat middleX=15;
         CGFloat middleY=_cellHeight;
         self.middleFrame=CGRectMake(middleX, middleY, middleW, middleH);
