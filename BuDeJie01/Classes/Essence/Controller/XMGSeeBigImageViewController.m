@@ -49,6 +49,15 @@
 }
 
 - (IBAction)savebtn:(UIButton *)sender {
+    UIImageWriteToSavedPhotosAlbum(self.imageview.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+}
+-(void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    if (error) {
+        XMGLog(@"success");
+    } else {
+         XMGLog(@"fail");
+    }
 }
 - (IBAction)backbtn:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
