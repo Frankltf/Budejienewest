@@ -9,6 +9,8 @@
 #import "XMGNewViewController.h"
 #import "UIBarButtonItem+Item.h"
 #import "XMGSubTagTableViewController.h"
+#import "XMGShopCartTableViewController.h"
+#import "XMGCartViewController.h"
 @interface XMGNewViewController ()
 
 @end
@@ -19,8 +21,24 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor orangeColor];
     [self setupNavItem];
+    
+    
+    UIButton *cartbtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [cartbtn setImage:[UIImage imageNamed:@"cartRed"] forState:UIControlStateNormal];
+    [cartbtn sizeToFit];
+    [cartbtn addTarget:self action:@selector(toShopCart) forControlEvents:UIControlEventTouchUpInside];
+    cartbtn.frame=CGRectMake(100, 200, cartbtn.frame.size.width, cartbtn.frame.size.height);
+    [self.view addSubview:cartbtn];
+    
 }
-
+/**
+ 去购物车
+ */
+-(void)toShopCart
+{
+    XMGCartViewController *shopCart=[[XMGCartViewController alloc]init];
+    [self.navigationController pushViewController:shopCart animated:YES];
+}
 /**
  设置导航条
  */

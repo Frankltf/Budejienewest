@@ -17,6 +17,7 @@ static NSString * const ID=@"cell";
 @interface XMGAllTableViewController ()
 @property(nonatomic,strong)NSMutableArray<XMGTopic *> *topic;
 
+@property(nonatomic,strong)NSString *teststr;
 @property(nonatomic,weak)MJRefreshHeader *header;
 @end
 
@@ -31,7 +32,11 @@ static NSString * const ID=@"cell";
     self.tableView.scrollIndicatorInsets=self.tableView.contentInset;
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick:) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
     [self setuprefresh];
+    self.teststr=@"ccdd";
+    
+
 }
+
 # pragma 上下拉刷新
 -(void)setuprefresh
 {

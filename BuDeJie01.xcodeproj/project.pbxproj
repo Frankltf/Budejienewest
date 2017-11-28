@@ -11,6 +11,13 @@
 		840ECC861FCBACE200FDE490 /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECC851FCBACE200FDE490 /* UIImageView+Download.m */; };
 		840ECC8E1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECC8D1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m */; };
 		840ECC901FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840ECC8F1FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib */; };
+		840ECD041FCCF3D200FDE490 /* XMGShopCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECD031FCCF3D200FDE490 /* XMGShopCartTableViewController.m */; };
+		840ECD0C1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECD0B1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.m */; };
+		840ECD0E1FCD0A9700FDE490 /* XMGCartCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840ECD0D1FCD0A9700FDE490 /* XMGCartCellTableViewCell.xib */; };
+		840ECD111FCD13C100FDE490 /* XMGCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECD101FCD13C100FDE490 /* XMGCartViewController.m */; };
+		840ECD131FCD13D300FDE490 /* XMGCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840ECD121FCD13D300FDE490 /* XMGCartViewController.xib */; };
+		840ECD161FCD3CBB00FDE490 /* XMGCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECD151FCD3CBB00FDE490 /* XMGCartItem.m */; };
+		840ECD3B1FCD47E200FDE490 /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840ECD3A1FCD47E200FDE490 /* wine.plist */; };
 		8428268A1FBECFAF0068F003 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826891FBECFAF0068F003 /* XMGTopic.m */; };
 		8428268C1FC275DF0068F003 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428268B1FC275DF0068F003 /* loading.gif */; };
 		842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C11FC527EA0068F003 /* XMGTopicVedioView.m */; };
@@ -65,6 +72,17 @@
 		840ECC8C1FCBBD9700FDE490 /* XMGSeeBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSeeBigImageViewController.h; sourceTree = "<group>"; };
 		840ECC8D1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSeeBigImageViewController.m; sourceTree = "<group>"; };
 		840ECC8F1FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSeeBigImageViewController.xib; sourceTree = "<group>"; };
+		840ECD021FCCF3D200FDE490 /* XMGShopCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGShopCartTableViewController.h; sourceTree = "<group>"; };
+		840ECD031FCCF3D200FDE490 /* XMGShopCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGShopCartTableViewController.m; sourceTree = "<group>"; };
+		840ECD0A1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCartCellTableViewCell.h; sourceTree = "<group>"; };
+		840ECD0B1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCartCellTableViewCell.m; sourceTree = "<group>"; };
+		840ECD0D1FCD0A9700FDE490 /* XMGCartCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGCartCellTableViewCell.xib; sourceTree = "<group>"; };
+		840ECD0F1FCD13C100FDE490 /* XMGCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCartViewController.h; sourceTree = "<group>"; };
+		840ECD101FCD13C100FDE490 /* XMGCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCartViewController.m; sourceTree = "<group>"; };
+		840ECD121FCD13D300FDE490 /* XMGCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGCartViewController.xib; sourceTree = "<group>"; };
+		840ECD141FCD3CBB00FDE490 /* XMGCartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCartItem.h; sourceTree = "<group>"; };
+		840ECD151FCD3CBB00FDE490 /* XMGCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCartItem.m; sourceTree = "<group>"; };
+		840ECD3A1FCD47E200FDE490 /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = SOURCE_ROOT; };
 		842826881FBECFAF0068F003 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
 		842826891FBECFAF0068F003 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
 		8428268B1FC275DF0068F003 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../ipa/loading.gif; sourceTree = "<group>"; };
@@ -198,6 +216,7 @@
 				84B845421FA9BCEC0078D705 /* Classes */,
 				84B845301FA9B5330078D705 /* Assets.xcassets */,
 				84B845321FA9B5330078D705 /* LaunchScreen.storyboard */,
+				840ECD3A1FCD47E200FDE490 /* wine.plist */,
 				84B845351FA9B5330078D705 /* Info.plist */,
 				84B845241FA9B5330078D705 /* Supporting Files */,
 			);
@@ -369,6 +388,11 @@
 				84B845651FA9BE970078D705 /* XMGNewViewController.m */,
 				84D59D581FAD8E8D0038F834 /* XMGSubTagTableViewController.h */,
 				84D59D591FAD8E8D0038F834 /* XMGSubTagTableViewController.m */,
+				840ECD021FCCF3D200FDE490 /* XMGShopCartTableViewController.h */,
+				840ECD031FCCF3D200FDE490 /* XMGShopCartTableViewController.m */,
+				840ECD0F1FCD13C100FDE490 /* XMGCartViewController.h */,
+				840ECD101FCD13C100FDE490 /* XMGCartViewController.m */,
+				840ECD121FCD13D300FDE490 /* XMGCartViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -378,6 +402,8 @@
 			children = (
 				84D59D831FB00E1E0038F834 /* XMGSubtagItem.h */,
 				84D59D841FB00E1E0038F834 /* XMGSubtagItem.m */,
+				840ECD141FCD3CBB00FDE490 /* XMGCartItem.h */,
+				840ECD151FCD3CBB00FDE490 /* XMGCartItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -388,6 +414,9 @@
 				84D59D5B1FAD8F6A0038F834 /* XMGSubTagCell.h */,
 				84D59D5C1FAD8F6A0038F834 /* XMGSubTagCell.m */,
 				84D59D5E1FAD8F7B0038F834 /* XMGSubTagCell.xib */,
+				840ECD0D1FCD0A9700FDE490 /* XMGCartCellTableViewCell.xib */,
+				840ECD0A1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.h */,
+				840ECD0B1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -609,6 +638,7 @@
 				84B845341FA9B5330078D705 /* LaunchScreen.storyboard in Resources */,
 				84D59D311FAC3FED0038F834 /* XMGViewController.xib in Resources */,
 				84D59D8C1FB039C10038F834 /* XMGLoginViewController.xib in Resources */,
+				840ECD131FCD13D300FDE490 /* XMGCartViewController.xib in Resources */,
 				84D59DAA1FB183B80038F834 /* XMGContentTableViewCell.xib in Resources */,
 				84B845311FA9B5330078D705 /* Assets.xcassets in Resources */,
 				8428268C1FC275DF0068F003 /* loading.gif in Resources */,
@@ -617,6 +647,8 @@
 				840ECC901FCBBDA200FDE490 /* XMGSeeBigImageViewController.xib in Resources */,
 				842826CA1FC528380068F003 /* XMGTopicVedioView.xib in Resources */,
 				84D59D871FB02CF90038F834 /* XMGFriendTrendViewController.xib in Resources */,
+				840ECD3B1FCD47E200FDE490 /* wine.plist in Resources */,
+				840ECD0E1FCD0A9700FDE490 /* XMGCartCellTableViewCell.xib in Resources */,
 				84D59D5F1FAD8F7B0038F834 /* XMGSubTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,6 +721,7 @@
 				84D59D901FB04B670038F834 /* XMGFileTool.m in Sources */,
 				840ECC861FCBACE200FDE490 /* UIImageView+Download.m in Sources */,
 				84D59D5D1FAD8F6A0038F834 /* XMGSubTagCell.m in Sources */,
+				840ECD041FCCF3D200FDE490 /* XMGShopCartTableViewController.m in Sources */,
 				84B845771FA9CE2B0078D705 /* XMGTabBar.m in Sources */,
 				84D59D9F1FB161620038F834 /* XMGPictureTableViewController.m in Sources */,
 				84B8459D1FAB3ED60078D705 /* UIBarButtonItem+Item.m in Sources */,
@@ -703,7 +736,9 @@
 				84D59D261FAC284C0038F834 /* XMGSettingViewController.m in Sources */,
 				84D59DA81FB183AF0038F834 /* XMGContentTableViewCell.m in Sources */,
 				84C5AFE81FB9940A00DFC42B /* XMGConst.m in Sources */,
+				840ECD161FCD3CBB00FDE490 /* XMGCartItem.m in Sources */,
 				842826C81FC528270068F003 /* XMGTopicPictureView.m in Sources */,
+				840ECD0C1FCCFE5D00FDE490 /* XMGCartCellTableViewCell.m in Sources */,
 				84B845741FA9C7EE0078D705 /* UIImage+Image.m in Sources */,
 				84B845701FA9C11F0078D705 /* XMGtabBarViewController.m in Sources */,
 				84D59DA51FB161D30038F834 /* XMGEssenceViewController.m in Sources */,
@@ -717,6 +752,7 @@
 				842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */,
 				84D59D961FB161350038F834 /* XMGAllTableViewController.m in Sources */,
 				84B8459A1FAB14520078D705 /* UIView+Frame.m in Sources */,
+				840ECD111FCD13C100FDE490 /* XMGCartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

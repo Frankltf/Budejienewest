@@ -38,8 +38,8 @@
  */
 -(void)setupChildCon
 {
-  
-    [self addChildViewController:[[XMGAllTableViewController alloc]init]];
+    XMGAllTableViewController *all=[[XMGAllTableViewController alloc]init];
+    [self addChildViewController:all];
     [self addChildViewController:[[XMGVideoTableViewController alloc]init]];
     [self addChildViewController:[[XMGVoiceTableViewController alloc]init]];
     [self addChildViewController:[[XMGPictureTableViewController alloc]init]];
