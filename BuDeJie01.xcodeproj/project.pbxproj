@@ -18,6 +18,8 @@
 		840ECD131FCD13D300FDE490 /* XMGCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840ECD121FCD13D300FDE490 /* XMGCartViewController.xib */; };
 		840ECD161FCD3CBB00FDE490 /* XMGCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECD151FCD3CBB00FDE490 /* XMGCartItem.m */; };
 		840ECD3B1FCD47E200FDE490 /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840ECD3A1FCD47E200FDE490 /* wine.plist */; };
+		840ECDD31FCFE92000FDE490 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECDD21FCFE92000FDE490 /* Reachability.m */; };
+		840ECDD61FCFE95900FDE490 /* XMGNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ECDD51FCFE95900FDE490 /* XMGNetWork.m */; };
 		8428268A1FBECFAF0068F003 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826891FBECFAF0068F003 /* XMGTopic.m */; };
 		8428268C1FC275DF0068F003 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8428268B1FC275DF0068F003 /* loading.gif */; };
 		842826C21FC527EA0068F003 /* XMGTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842826C11FC527EA0068F003 /* XMGTopicVedioView.m */; };
@@ -83,6 +85,10 @@
 		840ECD141FCD3CBB00FDE490 /* XMGCartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCartItem.h; sourceTree = "<group>"; };
 		840ECD151FCD3CBB00FDE490 /* XMGCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCartItem.m; sourceTree = "<group>"; };
 		840ECD3A1FCD47E200FDE490 /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = SOURCE_ROOT; };
+		840ECDD11FCFE92000FDE490 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		840ECDD21FCFE92000FDE490 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		840ECDD41FCFE95900FDE490 /* XMGNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNetWork.h; sourceTree = "<group>"; };
+		840ECDD51FCFE95900FDE490 /* XMGNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNetWork.m; sourceTree = "<group>"; };
 		842826881FBECFAF0068F003 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
 		842826891FBECFAF0068F003 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
 		8428268B1FC275DF0068F003 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../ipa/loading.gif; sourceTree = "<group>"; };
@@ -566,8 +572,12 @@
 		84D59D8D1FB04B480038F834 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				840ECDD11FCFE92000FDE490 /* Reachability.h */,
+				840ECDD21FCFE92000FDE490 /* Reachability.m */,
 				84D59D8E1FB04B670038F834 /* XMGFileTool.h */,
 				84D59D8F1FB04B670038F834 /* XMGFileTool.m */,
+				840ECDD41FCFE95900FDE490 /* XMGNetWork.h */,
+				840ECDD51FCFE95900FDE490 /* XMGNetWork.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -728,6 +738,8 @@
 				84D59D5A1FAD8E8D0038F834 /* XMGSubTagTableViewController.m in Sources */,
 				840ECC8E1FCBBD9700FDE490 /* XMGSeeBigImageViewController.m in Sources */,
 				84D59D2D1FAC3EC80038F834 /* XMGViewController.m in Sources */,
+				840ECDD61FCFE95900FDE490 /* XMGNetWork.m in Sources */,
+				840ECDD31FCFE92000FDE490 /* Reachability.m in Sources */,
 				84D59D231FAC1D180038F834 /* XMGNavigationController.m in Sources */,
 				84B845601FA9BE4D0078D705 /* XMGFriendTrendViewController.m in Sources */,
 				84D59D341FAC53690038F834 /* XMGAditem.m in Sources */,

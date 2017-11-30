@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "XMGViewController.h"
 #import <AFNetworking.h>
-
+#import "XMGNetWork.h"
 @interface AppDelegate ()
 
 @end
@@ -29,7 +29,7 @@
     XMGViewController *ad=[[XMGViewController alloc]init];
 
     self.window.rootViewController=ad;
-
+    [[XMGNetWork shareNetWork]judgeNetWork];
     [[AFNetworkReachabilityManager sharedManager]startMonitoring];
     [self.window makeKeyAndVisible];
     return YES;

@@ -8,3 +8,7 @@ UIKIT_EXTERN NSString *const XMGCommonURL;
 
 UIKIT_EXTERN NSString *const XMGTabBarButtonDidRepeatClickNotification;
 
+/**
+ *  网络发生变化
+ */
+extern NSString * const ZYNotificationNetWorkChange;

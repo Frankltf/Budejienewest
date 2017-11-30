@@ -37,6 +37,10 @@
  */
 -(void)toShopCart
 {
+    NSMutableDictionary *dict=[NSMutableDictionary dictionary];
+    dict[@"network"]=@"WIFI";
+    [[NSNotificationCenter defaultCenter]postNotificationName:ZYNotificationNetWorkChange object:nil userInfo:dict];
+    return;
     XMGCartViewController *shopCart=[[XMGCartViewController alloc]init];
     [self.navigationController pushViewController:shopCart animated:YES];
 }

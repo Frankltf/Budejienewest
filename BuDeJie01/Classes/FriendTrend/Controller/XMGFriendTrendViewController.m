@@ -34,6 +34,10 @@
     
 }
 - (IBAction)loginbtn:(UIButton *)sender {
+    NSMutableDictionary *dict=[NSMutableDictionary dictionary];
+    dict[@"network"]=@"None";
+    [[NSNotificationCenter defaultCenter]postNotificationName:ZYNotificationNetWorkChange object:nil userInfo:dict];
+    return;
     XMGLoginViewController *login=[[XMGLoginViewController alloc]init];
     [self presentViewController:login animated:YES completion:nil];
 }

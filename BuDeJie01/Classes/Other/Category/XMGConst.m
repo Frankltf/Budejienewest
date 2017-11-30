@@ -7,3 +7,7 @@ CGFloat const XMGTitlesViewH=35;
 
 NSString * const XMGTabBarButtonDidRepeatClickNotification=@"XMGTabBarButtonDidRepeatClickNotification";
 NSString *const XMGCommonURL=@"http://api.budejie.com/api/api_open.php";
+/**
+ *  网络发生变化
+ */
+NSString * const ZYNotificationNetWorkChange = @"ZYNotificationNetWorkChange";
