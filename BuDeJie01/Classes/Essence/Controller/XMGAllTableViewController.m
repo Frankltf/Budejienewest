@@ -25,7 +25,8 @@ static NSString * const ID=@"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSString  *path = NSHomeDirectory();
+    NSLog(@"path:%@",path);
     self.view.backgroundColor=[UIColor redColor];
     self.tableView.contentInset = UIEdgeInsetsMake(99, 0, 49, 0);
     [self.tableView registerNib:[UINib nibWithNibName:@"XMGContentTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
@@ -33,8 +34,6 @@ static NSString * const ID=@"cell";
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tabBarButtonDidRepeatClick:) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
     [self setuprefresh];
     self.teststr=@"ccdd";
-    
-
 }
 
 # pragma 上下拉刷新
