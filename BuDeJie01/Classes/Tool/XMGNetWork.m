@@ -29,8 +29,9 @@
 
 -(void)judgeNetWork
 {
-    Reachability *internetReachability=nil;
+
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    XMGLog(@"%@",[NSNotificationCenter defaultCenter]);
     self.internetReachability=[Reachability reachabilityForInternetConnection];
     [self.internetReachability startNotifier];
     [self updateInterfaceWithReachability:self.internetReachability];

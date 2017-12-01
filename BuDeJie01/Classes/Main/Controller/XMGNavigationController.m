@@ -35,6 +35,7 @@
 {
     NSDictionary *dict=note.userInfo;
     UIViewController *viewVc=self.childViewControllers.lastObject;
+    NSLog(@"%@",self.childViewControllers);
     if([dict[@"network"]  isEqualToString: @"WIFI"]){
         [viewVc.view addSubview:self.networkStateView];
     }else{
